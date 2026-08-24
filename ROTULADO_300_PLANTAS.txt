@@ -1,0 +1,307 @@
+ROTULADO DE IMAGENES - 300 PLANTAS
+==================================================
+
+Carpeta: imagenes/plantas/
+Formato recomendado: JPG
+El nombre debe coincidir exactamente con la columna 'imagen' de datos/plantas.json.
+
+001. Wallmi wallmi / barba vieja -> wallmi-wallmi-barba-vieja.jpg
+002. Kiwi -> kiwi.jpg
+003. Poro / puerro -> poro-puerro.jpg
+004. Cebolla -> cebolla.jpg
+005. Cebollín / cebolla china -> cebollin-cebolla-china.jpg
+006. Ajo -> ajo.jpg
+007. Aliso andino -> aliso-andino.jpg
+008. Cedrón / hierba luisa -> cedron-hierba-luisa.jpg
+009. Alternantera / hierba de hoja plateada -> alternantera-hierba-de-hoja-plateada.jpg
+010. Alternantera espinosa -> alternantera-espinosa.jpg
+011. Kiwicha / amaranto -> kiwicha-amaranto.jpg
+012. Amaranto / bledo -> amaranto-bledo.jpg
+013. Bledo espinoso / yuyo espinoso -> bledo-espinoso-yuyo-espinoso.jpg
+014. Bledo / amaranto verde -> bledo-amaranto-verde.jpg
+015. Marco / altamisa -> marco-altamisa.jpg
+016. Ambrosia peruana / altamisa -> ambrosia-peruana-altamisa.jpg
+017. Piña -> pina.jpg
+018. Chirimoya -> chirimoya.jpg
+019. Boca de dragón -> boca-de-dragon.jpg
+020. Apio -> apio.jpg
+021. Maní / cacahuate -> mani-cacahuate.jpg
+022. Arracacha / racacha -> arracacha-racacha.jpg
+023. Ajenjo -> ajenjo.jpg
+024. Estragón -> estragon.jpg
+025. Flor de sangre / bandera española -> flor-de-sangre-bandera-espanola.jpg
+026. Espárrago -> esparrago.jpg
+027. Avena -> avena.jpg
+028. Carambola -> carambola.jpg
+029. Yareta / planta almohadillada andina -> yareta-planta-almohadillada-andina.jpg
+030. Carqueja / chilca -> carqueja-chilca.jpg
+031. Chilca -> chilca.jpg
+032. Chilca de hoja de sauce -> chilca-de-hoja-de-sauce.jpg
+033. Chilca / tola -> chilca-tola.jpg
+034. Espino andino / Barnadesia -> espino-andino-barnadesia.jpg
+035. Begonia -> begonia.jpg
+036. Agracejo andino / espino -> agracejo-andino-espino.jpg
+037. Betarraga / remolacha -> betarraga-remolacha.jpg
+038. Acelga -> acelga.jpg
+039. Amor seco / cadillo -> amor-seco-cadillo.jpg
+040. Buganvilla / veranera -> buganvilla-veranera.jpg
+041. Col rizada / kale -> col-rizada-kale.jpg
+042. Coliflor -> coliflor.jpg
+043. Repollo / col -> repollo-col.jpg
+044. Colinabo / colirrábano -> colinabo-colirrabano.jpg
+045. Brócoli -> brocoli.jpg
+046. Col china / bok choy -> col-china-bok-choy.jpg
+047. Col napa / repollo chino -> col-napa-repollo-chino.jpg
+048. Nabo -> nabo.jpg
+049. Floripondio rojo / trompeta de ángel -> floripondio-rojo-trompeta-de-angel.jpg
+050. Floripondio / trompeta de ángel -> floripondio-trompeta-de-angel.jpg
+051. Colle / kiswar -> colle-kiswar.jpg
+052. Quishuar / kiswar -> quishuar-kiswar.jpg
+053. Quishuar de montaña -> quishuar-de-montana.jpg
+054. Quishuar / kiswar -> quishuar-kiswar.jpg
+055. Tara -> tara.jpg
+056. Caléndula / maravilla -> calendula-maravilla.jpg
+057. Camelia -> camelia.jpg
+058. Achira / achira andina -> achira-achira-andina.jpg
+059. Cantuta / flor sagrada de los incas -> cantuta-flor-sagrada-de-los-incas.jpg
+060. Pimiento / pimentón -> pimiento-pimenton.jpg
+061. Ají amarillo / ají escabeche -> aji-amarillo-aji-escabeche.jpg
+062. Rocoto -> rocoto.jpg
+063. Globo / farolito -> globo-farolito.jpg
+064. Papaya -> papaya.jpg
+065. Hierba santa / galán de noche -> hierba-santa-galan-de-noche.jpg
+066. Cestrum andino / galán de noche -> cestrum-andino-galan-de-noche.jpg
+067. Palqui / hediondilla -> palqui-hediondilla.jpg
+068. Cenizo / quinua negra silvestre -> cenizo-quinua-negra-silvestre.jpg
+069. Cañihua / kañiwa -> canihua-kaniwa.jpg
+070. Cenizo andino -> cenizo-andino.jpg
+071. Quinua -> quinua.jpg
+072. Chilca / flor de montaña -> chilca-flor-de-montana.jpg
+073. Crisantemo -> crisantemo.jpg
+074. Chuquiragua / flor de los Andes -> chuquiragua-flor-de-los-andes.jpg
+075. Garbanzo -> garbanzo.jpg
+076. Escarola -> escarola.jpg
+077. Endibia / achicoria de Bruselas -> endibia-achicoria-de-bruselas.jpg
+078. Sandía -> sandia.jpg
+079. Mandarina -> mandarina.jpg
+080. Naranja -> naranja.jpg
+081. Lima -> lima.jpg
+082. Limón -> limon.jpg
+083. Toronja / pomelo -> toronja-pomelo.jpg
+084. Clemátide peruana -> clematide-peruana.jpg
+085. Muña -> muna.jpg
+086. Muña -> muna.jpg
+087. Café -> cafe.jpg
+088. Pituca / malanga -> pituca-malanga.jpg
+089. Rama negra / coniza -> rama-negra-coniza.jpg
+090. Cilantro / culantro -> cilantro-culantro.jpg
+091. Huiñal / coriaria -> huinal-coriaria.jpg
+092. Cosmos / mirasol -> cosmos-mirasol.jpg
+093. Cotula / botón de oro -> cotula-boton-de-oro.jpg
+094. Melón -> melon.jpg
+095. Pepino -> pepino.jpg
+096. Zapallo -> zapallo.jpg
+097. Zapallito italiano / calabacín -> zapallito-italiano-calabacin.jpg
+098. Membrillo -> membrillo.jpg
+099. Bejuco andino -> bejuco-andino.jpg
+100. Cardo -> cardo.jpg
+101. Alcachofa -> alcachofa.jpg
+102. Dalia -> dalia.jpg
+103. Floripondio / estramonio -> floripondio-estramonio.jpg
+104. Zanahoria -> zanahoria.jpg
+105. Delilia -> delilia.jpg
+106. Clavel -> clavel.jpg
+107. Caqui / kaki -> caqui-kaki.jpg
+108. Chamisa / chilca -> chamisa-chilca.jpg
+109. Palo de Brasil -> palo-de-brasil.jpg
+110. Lengua de suegra -> lengua-de-suegra.jpg
+111. Palmera areca -> palmera-areca.jpg
+112. Paico -> paico.jpg
+113. Helecho pequeño -> helecho-pequeno.jpg
+114. Matorral / margarita del desierto -> matorral-margarita-del-desierto.jpg
+115. Pinco-penco / cola de caballo andina -> pinco-penco-cola-de-caballo-andina.jpg
+116. Pinco-penco -> pinco-penco.jpg
+117. Cola de caballo -> cola-de-caballo.jpg
+118. Cola de caballo gigante -> cola-de-caballo-gigante.jpg
+119. Níspero -> nispero.jpg
+120. Cardo andino -> cardo-andino.jpg
+121. Pajuro / poroto de árbol -> pajuro-poroto-de-arbol.jpg
+122. Higo -> higo.jpg
+123. Hinojo -> hinojo.jpg
+124. Fresa / frutilla -> fresa-frutilla.jpg
+125. Pacoyuyo / guasca -> pacoyuyo-guasca.jpg
+126. Gardenia -> gardenia.jpg
+127. Gladiolo -> gladiolo.jpg
+128. Soya / soja -> soya-soja.jpg
+129. Vira-vira / siempreviva -> vira-vira-siempreviva.jpg
+130. Siempreviva andina -> siempreviva-andina.jpg
+131. Yerba de la perdiz -> yerba-de-la-perdiz.jpg
+132. Gynoxys brillante -> gynoxys-brillante.jpg
+133. Gynoxys de hojas oleosas -> gynoxys-de-hojas-oleosas.jpg
+134. Topinambur / alcachofa de Jerusalén -> topinambur-alcachofa-de-jerusalen.jpg
+135. Hibisco / flor de Jamaica silvestre -> hibisco-flor-de-jamaica-silvestre.jpg
+136. Cebada -> cebada.jpg
+137. Hortensia -> hortensia.jpg
+138. Achicoria del campo -> achicoria-del-campo.jpg
+139. Iocroma andino -> iocroma-andino.jpg
+140. Iocroma verde -> iocroma-verde.jpg
+141. Camote / batata -> camote-batata.jpg
+142. Iresine / hierba de sangre -> iresine-hierba-de-sangre.jpg
+143. Jazmín común -> jazmin-comun.jpg
+144. Jungia andina -> jungia-andina.jpg
+145. Justicia andina -> justicia-andina.jpg
+146. Koanophyllon andino -> koanophyllon-andino.jpg
+147. Lechuga -> lechuga.jpg
+148. Lantana / bandera española -> lantana-bandera-espanola.jpg
+149. Lantana andina -> lantana-andina.jpg
+150. Lavanda -> lavanda.jpg
+151. Lenteja -> lenteja.jpg
+152. Salvia de los Andes / salvia silvestre -> salvia-de-los-andes-salvia-silvestre.jpg
+153. Maca -> maca.jpg
+154. Margarita -> margarita.jpg
+155. Azucena / lirio -> azucena-lirio.jpg
+156. Hierba luisa / pronto alivio -> hierba-luisa-pronto-alivio.jpg
+157. Madreselva -> madreselva.jpg
+158. Tarwi / chocho -> tarwi-chocho.jpg
+159. Tomatillo andino -> tomatillo-andino.jpg
+160. Cambrón / Lycium americano -> cambron-lycium-americano.jpg
+161. Manzana -> manzana.jpg
+162. Malva pequeña -> malva-pequena.jpg
+163. Mandevilla andina -> mandevilla-andina.jpg
+164. Mango -> mango.jpg
+165. Yuca / mandioca -> yuca-mandioca.jpg
+166. Manzanilla -> manzanilla.jpg
+167. Alelí -> aleli.jpg
+168. Mauria andina -> mauria-andina.jpg
+169. Aguaje -> aguaje.jpg
+170. Alfalfa -> alfalfa.jpg
+171. Toronjil / melisa -> toronjil-melisa.jpg
+172. Hierbabuena / menta -> hierbabuena-menta.jpg
+173. Muña -> muna.jpg
+174. Costilla de Adán -> costilla-de-adan.jpg
+175. Plátano / banana -> platano-banana.jpg
+176. Clavel del aire / mutisia -> clavel-del-aire-mutisia.jpg
+177. Clavel de los Andes -> clavel-de-los-andes.jpg
+178. Berro -> berro.jpg
+179. Palán palán -> palan-palan.jpg
+180. Tabaco rústico / mapacho -> tabaco-rustico-mapacho.jpg
+181. Tabaco -> tabaco.jpg
+182. Suspiro / nolana -> suspiro-nolana.jpg
+183. Albahaca -> albahaca.jpg
+184. Albahaca morada -> albahaca-morada.jpg
+185. Olivo -> olivo.jpg
+186. Onoseris olorosa -> onoseris-olorosa.jpg
+187. Tuna / higo de India -> tuna-higo-de-india.jpg
+188. Oreopanax andino -> oreopanax-andino.jpg
+189. Orégano -> oregano.jpg
+190. Oca -> oca.jpg
+191. Amapola -> amapola.jpg
+192. Flor de la pasión ornamental -> flor-de-la-pasion-ornamental.jpg
+193. Maracuyá -> maracuya.jpg
+194. Maracuyá amarillo -> maracuya-amarillo.jpg
+195. Granadilla amarilla -> granadilla-amarilla.jpg
+196. Granadilla -> granadilla.jpg
+197. Granadilla de monte -> granadilla-de-monte.jpg
+198. Tumbo serrano -> tumbo-serrano.jpg
+199. Geranio -> geranio.jpg
+200. Congona -> congona.jpg
+201. Palta / aguacate -> palta-aguacate.jpg
+202. Perymenium del Huascarán -> perymenium-del-huascaran.jpg
+203. Perejil -> perejil.jpg
+204. Petunia -> petunia.jpg
+205. Pallar / frijol de Lima -> pallar-frijol-de-lima.jpg
+206. Frijol / frejol -> frijol-frejol.jpg
+207. Dátil / palmera datilera -> datil-palmera-datilera.jpg
+208. Bolsa de pastor / aguaymanto silvestre -> bolsa-de-pastor-aguaymanto-silvestre.jpg
+209. Aguaymanto / uvilla -> aguaymanto-uvilla.jpg
+210. Tomatillo / bolsa de pastor -> tomatillo-bolsa-de-pastor.jpg
+211. Matico / cordoncillo -> matico-cordoncillo.jpg
+212. Matico -> matico.jpg
+213. Santa María / cordoncillo -> santa-maria-cordoncillo.jpg
+214. Cordoncillo -> cordoncillo.jpg
+215. Arveja / guisante -> arveja-guisante.jpg
+216. Sacha inchi / maní del monte -> sacha-inchi-mani-del-monte.jpg
+217. Quilquiña / pápalo -> quilquina-papalo.jpg
+218. Lúcuma -> lucuma.jpg
+219. Zapote -> zapote.jpg
+220. Albaricoque / damasco -> albaricoque-damasco.jpg
+221. Ciruela -> ciruela.jpg
+222. Durazno / melocotón -> durazno-melocoton.jpg
+223. Capulí / cerezo andino -> capuli-cerezo-andino.jpg
+224. Guayaba -> guayaba.jpg
+225. Granada -> granada.jpg
+226. Pera -> pera.jpg
+227. Rabanito / rábano -> rabanito-rabano.jpg
+228. Ruibarbo -> ruibarbo.jpg
+229. Ribes de hojas ovaladas -> ribes-de-hojas-ovaladas.jpg
+230. Mora / zarzamora -> mora-zarzamora.jpg
+231. Mora -> mora.jpg
+232. Frambuesa -> frambuesa.jpg
+233. Ruellia de muchas flores -> ruellia-de-muchas-flores.jpg
+234. Ruda -> ruda.jpg
+235. Caña de azúcar -> cana-de-azucar.jpg
+236. Salpichroa andina -> salpichroa-andina.jpg
+237. Salvia de Dombey -> salvia-de-dombey.jpg
+238. Salvia -> salvia.jpg
+239. Romero -> romero.jpg
+240. Salvia flechada / salvia azul -> salvia-flechada-salvia-azul.jpg
+241. Saúco negro -> sauco-negro.jpg
+242. Saúco peruano -> sauco-peruano.jpg
+243. Saracha punteada -> saracha-punteada.jpg
+244. Molle -> molle.jpg
+245. Molle peruano -> molle-peruano.jpg
+246. Canchalagua / escobilla -> canchalagua-escobilla.jpg
+247. Pitahaya / fruta del dragón -> pitahaya-fruta-del-dragon.jpg
+248. Bejuco / liana -> bejuco-liana.jpg
+249. Verdolaga de playa -> verdolaga-de-playa.jpg
+250. Escobilla / sida -> escobilla-sida.jpg
+251. Hierba de San Pablo -> hierba-de-san-pablo.jpg
+252. Yacón -> yacon.jpg
+253. Hierba mora -> hierba-mora.jpg
+254. Tomate silvestre -> tomate-silvestre.jpg
+255. Tomate de árbol / sachatomate -> tomate-de-arbol-sachatomate.jpg
+256. Pepino dulce -> pepino-dulce.jpg
+257. Tomate -> tomate.jpg
+258. Tomate cherry -> tomate-cherry.jpg
+259. Teta de vaca / manzano del diablo -> teta-de-vaca-manzano-del-diablo.jpg
+260. Berenjena -> berenjena.jpg
+261. Pepino dulce -> pepino-dulce.jpg
+262. Hierba mora -> hierba-mora.jpg
+263. Tomate silvestre peruano -> tomate-silvestre-peruano.jpg
+264. Tomate silvestre / tomate cereza silvestre -> tomate-silvestre-tomate-cereza-silvestre.jpg
+265. Tomatillo robusto -> tomatillo-robusto.jpg
+266. Cocona -> cocona.jpg
+267. Berenjena silvestre / berenjena de monte -> berenjena-silvestre-berenjena-de-monte.jpg
+268. Papa -> papa.jpg
+269. Papa andina -> papa-andina.jpg
+270. Vara de oro / romerillo -> vara-de-oro-romerillo.jpg
+271. Cerraja áspera -> cerraja-aspera.jpg
+272. Cerraja / lechuguilla -> cerraja-lechuguilla.jpg
+273. Retama -> retama.jpg
+274. Espinaca -> espinaca.jpg
+275. Symplocos / palo de quina -> symplocos-palo-de-quina.jpg
+276. Anís serrano / pampa-anís -> anis-serrano-pampa-anis.jpg
+277. Huacatay silvestre / flor de muerto -> huacatay-silvestre-flor-de-muerto.jpg
+278. Clavel de moro / damasquina -> clavel-de-moro-damasquina.jpg
+279. Tamarindo -> tamarindo.jpg
+280. Diente de león -> diente-de-leon.jpg
+281. Cacao -> cacao.jpg
+282. Tomillo -> tomillo.jpg
+283. Cadillo / botón de oro -> cadillo-boton-de-oro.jpg
+284. Trigo -> trigo.jpg
+285. Mashua -> mashua.jpg
+286. Olluco / melloco -> olluco-melloco.jpg
+287. Arándano -> arandano.jpg
+288. Perlillo / cun-cun -> perlillo-cun-cun.jpg
+289. Verbena -> verbena.jpg
+290. Verbena de campo -> verbena-de-campo.jpg
+291. Verbena común -> verbena-comun.jpg
+292. Verbena -> verbena.jpg
+293. Verbesina -> verbesina.jpg
+294. Haba -> haba.jpg
+295. Pensamiento -> pensamiento.jpg
+296. Uva / vid -> uva-vid.jpg
+297. Abrojo / cepa caballo -> abrojo-cepa-caballo.jpg
+298. Maíz amarillo -> maiz-amarillo.jpg
+299. Maíz morado -> maiz-morado.jpg
+300. Zinnia -> zinnia.jpg

@@ -1,0 +1,2084 @@
+/* =========================================
+   CONFIGURACIÓN GENERAL
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+        linear-gradient(
+            135deg,
+            #eef7f0 0%,
+            #f7faf7 45%,
+            #e7f2e9 100%
+        );
+    color: #183329;
+}
+
+
+/* =========================================
+   BARRA LATERAL
+========================================= */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 270px;
+    height: 100vh;
+
+    padding: 30px 20px;
+
+    background:
+        linear-gradient(
+            160deg,
+            #063d2b,
+            #075538 55%,
+            #0a6842
+        );
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1000;
+
+    overflow-y: auto;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 5px 12px 35px;
+}
+
+.logo-icon {
+    font-size: 42px;
+}
+
+.logo span {
+    display: block;
+    font-size: 17px;
+}
+
+.logo strong {
+    display: block;
+
+    font-size: 25px;
+    color: #8de28e;
+}
+
+
+/* =========================================
+   NAVEGACIÓN
+========================================= */
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-btn {
+    border: none;
+
+    background: transparent;
+
+    color: #dcefe3;
+
+    text-align: left;
+
+    padding: 15px 16px;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    transition: 0.2s;
+}
+
+.nav-btn:hover {
+    background: rgba(255,255,255,0.12);
+    transform: translateX(3px);
+}
+
+.nav-btn.activo {
+    background:
+        linear-gradient(
+            90deg,
+            #67c83e,
+            #419d38
+        );
+
+    color: white;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.15);
+}
+
+.proximamente {
+    opacity: 0.9;
+}
+
+
+/* =========================================
+   CONSEJO
+========================================= */
+
+.sidebar-bottom {
+    margin-top: auto;
+}
+
+.consejo {
+    background: rgba(255,255,255,0.09);
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    padding: 18px;
+
+    border-radius: 16px;
+}
+
+.consejo-icon {
+    font-size: 25px;
+}
+
+.consejo strong {
+    display: block;
+    margin-top: 8px;
+}
+
+.consejo p {
+    color: #cde2d4;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   CONTENIDO
+========================================= */
+
+.contenido {
+    margin-left: 270px;
+
+    min-height: 100vh;
+
+    padding: 0 35px 40px;
+}
+
+
+/* =========================================
+   TOPBAR
+========================================= */
+
+.topbar {
+    height: 85px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.titulo-sistema {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    font-size: 17px;
+}
+
+.titulo-sistema:first-letter {
+    font-size: 25px;
+}
+
+.titulo-sistema strong {
+    color: #3f9f42;
+}
+
+.estado {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    padding: 11px 17px;
+
+    border-radius: 12px;
+
+    background: white;
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   SECCIONES
+========================================= */
+
+.seccion {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.oculto {
+    display: none !important;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+    min-height: 365px;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 48px;
+
+    background:
+        linear-gradient(
+            110deg,
+            rgba(255,255,255,0.98) 0%,
+            rgba(255,255,255,0.92) 40%,
+            rgba(222,242,229,0.65) 100%
+        );
+
+    box-shadow:
+        0 8px 30px rgba(26,70,44,0.10);
+
+    border: 1px solid #dce9df;
+}
+
+
+/* =========================================
+   EFECTO PAISAJE
+========================================= */
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    right: -80px;
+    bottom: -130px;
+
+    width: 620px;
+    height: 350px;
+
+    background:
+        radial-gradient(
+            ellipse,
+            #b4d6c0 0%,
+            #dcece1 45%,
+            transparent 70%
+        );
+
+    opacity: 0.7;
+
+    pointer-events: none;
+}
+
+.hero-contenido {
+    position: relative;
+    z-index: 2;
+
+    max-width: 650px;
+}
+
+.etiqueta {
+    color: #3c9748;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 46px;
+
+    line-height: 1.08;
+
+    margin: 14px 0;
+
+    color: #17352a;
+}
+
+.hero h1 span {
+    color: #3e9d47;
+}
+
+.hero p {
+    color: #66736c;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+
+    max-width: 580px;
+}
+
+
+/* =========================================
+   BUSCADOR
+========================================= */
+
+.buscador {
+    display: flex;
+
+    align-items: center;
+
+    background: white;
+
+    border: 1px solid #d9e4dc;
+
+    border-radius: 15px;
+
+    padding: 6px 7px 6px 17px;
+
+    max-width: 600px;
+
+    margin-top: 22px;
+
+    box-shadow:
+        0 7px 20px rgba(35,77,48,0.08);
+}
+
+.buscador > span {
+    font-size: 21px;
+}
+
+.buscador input {
+    border: none;
+
+    outline: none;
+
+    flex: 1;
+
+    padding: 13px;
+
+    font-size: 16px;
+
+    min-width: 0;
+}
+
+.buscador button {
+    border: none;
+
+    background:
+        linear-gradient(
+            135deg,
+            #63c34a,
+            #398e3c
+        );
+
+    color: white;
+
+    padding: 13px 22px;
+
+    border-radius: 11px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    transform: translateY(-1px);
+}
+
+.ejemplos {
+    margin-top: 12px;
+
+    font-size: 13px;
+
+    color: #78867e;
+}
+
+.ejemplos button {
+    border: none;
+
+    background: transparent;
+
+    color: #43874a;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   TARJETA HERO
+========================================= */
+
+.hero-planta {
+    position: absolute;
+
+    right: 40px;
+
+    bottom: 35px;
+
+    z-index: 3;
+
+    width: 280px;
+
+    background:
+        rgba(255,255,255,0.9);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+    padding: 18px;
+
+    box-shadow:
+        0 15px 35px rgba(28,64,42,0.16);
+
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+}
+
+.planta-imagen {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edf8d8,
+            #d5ebba
+        );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 42px;
+}
+
+.hero-planta h2 {
+    margin: 6px 0;
+
+    font-size: 18px;
+}
+
+.hero-planta p {
+    margin: 0;
+
+    font-size: 12px;
+
+    line-height: 1.4;
+}
+
+.recomendado {
+    background: #e3f5e4;
+
+    color: #398842;
+
+    padding: 5px 8px;
+
+    border-radius: 20px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   RESULTADOS DE BÚSQUEDA
+========================================= */
+
+#resultadoBusqueda {
+    margin-top: 20px;
+}
+
+.ficha-planta {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    margin-top: 20px;
+
+    box-shadow:
+        0 5px 20px rgba(30,70,45,0.08);
+
+    border: 1px solid #e0eae2;
+}
+
+.ficha-planta h2 {
+    color: #2c8642;
+}
+
+
+/* =========================================
+   GRID PRINCIPAL
+========================================= */
+
+.grid-principal {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr 1fr;
+
+    gap: 18px;
+
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+
+    border: 1px solid #dfe9e2;
+
+    border-radius: 20px;
+
+    padding: 24px;
+
+    min-height: 190px;
+
+    box-shadow:
+        0 5px 20px rgba(30,70,45,0.06);
+}
+
+.card-titulo {
+    display: flex;
+
+    gap: 14px;
+}
+
+.card-icon {
+    font-size: 30px;
+}
+
+.card h2 {
+    margin: 0 0 7px;
+
+    font-size: 20px;
+}
+
+.card p {
+    color: #77827c;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.boton-principal {
+    width: 100%;
+
+    border: none;
+
+    padding: 13px 18px;
+
+    border-radius: 11px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #58bd48,
+            #378c3d
+        );
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+    font-size: 15px;
+}
+
+.boton-principal:hover {
+    filter: brightness(1.05);
+}
+
+
+/* =========================================
+   CONDICIONES
+========================================= */
+
+.condiciones {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 8px;
+
+    margin-top: 15px;
+}
+
+.condiciones div {
+    text-align: center;
+
+    padding: 10px 5px;
+
+    background: #f1f8f2;
+
+    border-radius: 10px;
+}
+
+.condiciones span {
+    display: block;
+}
+
+.condiciones strong {
+    display: block;
+
+    font-size: 14px;
+
+    margin: 5px 0;
+}
+
+.condiciones small {
+    color: #748077;
+
+    font-size: 10px;
+}
+
+
+/* =========================================
+   MINI RECOMENDACIONES
+========================================= */
+
+.mini-planta {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 9px 10px;
+
+    margin-top: 8px;
+
+    background: #f3f8f4;
+
+    border-radius: 10px;
+}
+
+.mini-planta strong {
+    font-size: 14px;
+}
+
+.mini-planta span {
+    color: #4a9a50;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   TÍTULOS
+========================================= */
+
+.seccion-titulo {
+    margin-top: 30px;
+
+    margin-bottom: 15px;
+}
+
+.seccion-titulo span {
+    color: #4a9d4d;
+
+    font-size: 13px;
+}
+
+.seccion-titulo h2 {
+    margin: 3px 0;
+}
+
+
+/* =========================================
+   CATEGORÍAS
+========================================= */
+
+.categorias {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 15px;
+}
+
+.categorias button {
+    background: white;
+
+    border: 1px solid #dce8df;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    cursor: pointer;
+
+    text-align: left;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+    transition: 0.2s;
+}
+
+.categorias button:hover {
+    transform: translateY(-3px);
+
+    border-color: #6bbb65;
+
+    box-shadow:
+        0 8px 20px rgba(49,120,65,0.10);
+}
+
+.categorias button:first-letter {
+    font-size: 27px;
+}
+
+.categorias strong {
+    font-size: 15px;
+}
+
+.categorias small {
+    color: #7a867f;
+}
+
+
+/* =========================================
+   INFORMACIÓN FINAL
+========================================= */
+
+.info-final {
+    margin-top: 35px;
+
+    background:
+        rgba(255,255,255,0.75);
+
+    border: 1px solid #dce8df;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.info-final div {
+    display: grid;
+
+    grid-template-columns: 35px 1fr;
+
+    align-items: center;
+}
+
+.info-final div:first-letter {
+    font-size: 24px;
+}
+
+.info-final strong {
+    font-size: 13px;
+}
+
+.info-final span {
+    grid-column: 2;
+
+    color: #77827b;
+
+    font-size: 11px;
+}
+
+
+/* =========================================
+   PÁGINAS INTERNAS
+========================================= */
+
+.pagina-titulo {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    gap: 18px;
+
+    align-items: center;
+
+    border: 1px solid #dfe9e2;
+
+    box-shadow:
+        0 5px 20px rgba(30,70,45,0.06);
+}
+
+.pagina-titulo > span {
+    font-size: 42px;
+}
+
+.pagina-titulo h1 {
+    margin: 0;
+
+    color: #1d4934;
+}
+
+.pagina-titulo p {
+    margin-bottom: 0;
+
+    color: #718078;
+}
+
+
+/* =========================================
+   FORMULARIO
+========================================= */
+
+.formulario-zona {
+    background: white;
+
+    margin-top: 20px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    border: 1px solid #dfe9e2;
+
+    box-shadow:
+        0 5px 20px rgba(30,70,45,0.06);
+}
+
+.formulario-zona label {
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+}
+
+.formulario-zona input {
+    width: 100%;
+
+    border: 1px solid #ccd9d0;
+
+    border-radius: 10px;
+
+    padding: 13px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.formulario-zona input:focus {
+    border-color: #55a954;
+
+    box-shadow:
+        0 0 0 3px rgba(82,168,82,0.10);
+}
+
+
+/* =========================================
+   RESULTADOS DE ANÁLISIS
+========================================= */
+
+.resultado-planta {
+    background: #f5faf6;
+
+    border-left: 5px solid #4eaa51;
+
+    padding: 20px;
+
+    margin: 15px 0;
+
+    border-radius: 12px;
+}
+
+.resultado-planta h3 {
+    margin-top: 0;
+}
+
+.resultado-planta ul {
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   MENSAJE VACÍO
+========================================= */
+
+.mensaje-vacio {
+    background: white;
+
+    margin-top: 20px;
+
+    padding: 60px 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    border: 1px solid #dfe9e2;
+}
+
+.mensaje-vacio span {
+    font-size: 55px;
+}
+
+.mensaje-vacio h2 {
+    color: #2d7040;
+}
+
+.mensaje-vacio p {
+    color: #77827b;
+
+    max-width: 500px;
+
+    margin: auto;
+}
+
+.mensaje-vacio button {
+    border: none;
+
+    background: #439744;
+
+    color: white;
+
+    padding: 13px 22px;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+
+/* =========================================
+   PRÓXIMAMENTE
+========================================= */
+
+.proximamente-box {
+    margin-top: 25px;
+
+    background: white;
+
+    padding: 70px 30px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    border: 1px solid #dfe9e2;
+}
+
+.proximamente-box:first-letter {
+    font-size: 50px;
+}
+
+.proximamente-box p {
+    color: #748078;
+}
+
+
+/* =========================================
+   FAVORITOS
+========================================= */
+
+.favorito-card {
+    background: white;
+
+    border: 1px solid #dfe9e2;
+
+    padding: 20px;
+
+    margin-top: 15px;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.favorito-card button {
+    border: none;
+
+    background: #ffe9e9;
+
+    color: #b83c3c;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+/* =========================================
+   FICHA DE PLANTA CON IMAGEN
+========================================= */
+
+.ficha-cabecera {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 30px;
+
+    min-height: 190px;
+}
+
+
+/* =========================================
+   INFORMACIÓN DE LA PLANTA
+========================================= */
+
+.ficha-informacion {
+    flex: 1;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+.ficha-informacion h2 {
+    margin-top: 0;
+
+    margin-bottom: 8px;
+
+    font-size: 28px;
+}
+
+.ficha-informacion p {
+    color: #718078;
+
+    margin-top: 0;
+}
+
+
+/* =========================================
+   BOTÓN FAVORITO
+========================================= */
+
+.boton-favorito {
+    border: none;
+
+    background: #f0f7f1;
+
+    padding: 12px 15px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 22px;
+
+    transition: 0.2s;
+}
+
+.boton-favorito:hover {
+    transform: scale(1.08);
+
+    background: #e2f2e4;
+}
+
+
+/* =========================================
+   IMAGEN DE LA PLANTA
+========================================= */
+
+.ficha-imagen {
+    width: 220px;
+
+    height: 170px;
+
+    flex-shrink: 0;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edf8d8,
+            #d5ebba
+        );
+
+    box-shadow:
+        0 8px 20px rgba(30,70,45,0.12);
+
+    border: 1px solid #dce8df;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+}
+
+.ficha-imagen img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition:
+        transform 0.3s ease;
+}
+
+.ficha-imagen:hover img {
+    transform: scale(1.04);
+}
+
+
+/* =========================================
+   IMAGEN NO ENCONTRADA
+========================================= */
+
+.imagen-error {
+    display: none;
+
+    position: absolute;
+
+    font-size: 55px;
+}
+
+.ficha-imagen.sin-imagen .imagen-error {
+    display: block;
+}
+
+
+/* =========================================
+   DATOS DE LA PLANTA
+========================================= */
+
+.datos-planta {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+.datos-planta .resultado-planta {
+    margin: 0;
+}
+
+
+/* =========================================
+   MAPA INTERACTIVO DE ÁNCASH
+========================================= */
+
+.mapa-contenedor {
+    margin-top: 22px;
+
+    background: white;
+
+    border: 1px solid #dfe9e2;
+
+    border-radius: 24px;
+
+    padding: 28px;
+
+    box-shadow:
+        0 8px 30px rgba(30, 70, 45, 0.08);
+}
+
+
+/* =========================================
+   CABECERA DEL MAPA
+========================================= */
+
+.mapa-cabecera {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding-bottom: 22px;
+
+    border-bottom: 1px solid #e5eee7;
+}
+
+.mapa-etiqueta {
+    color: #4a9d4d;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+}
+
+.mapa-cabecera h2 {
+    margin: 7px 0 5px;
+
+    color: #214a35;
+
+    font-size: 25px;
+}
+
+.mapa-cabecera p {
+    margin: 0;
+
+    color: #718078;
+
+    font-size: 14px;
+}
+
+.mapa-indicador {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 10px 14px;
+
+    background: #f1f8f2;
+
+    color: #438747;
+
+    border-radius: 12px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+.punto-verde {
+    width: 10px;
+
+    height: 10px;
+
+    background: #58bd48;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 4px #dff2df;
+}
+
+
+/* =========================================
+   ÁREA DEL MAPA
+========================================= */
+
+.mapa-area {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.5fr)
+        minmax(300px, 0.8fr);
+
+    gap: 25px;
+
+    margin-top: 25px;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   MAPA SVG
+========================================= */
+
+.mapa-svg {
+    min-height: 570px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #f5faf5 0%,
+            #edf6ef 60%,
+            #e7f1e9 100%
+        );
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    border: 1px solid #dce8df;
+
+    overflow: hidden;
+}
+
+.mapa-svg img {
+    width: 100%;
+
+    max-width: 650px;
+
+    max-height: 600px;
+
+    object-fit: contain;
+
+    display: block;
+
+    transition: 0.3s ease;
+}
+
+
+/* =========================================
+   INFORMACIÓN DE PROVINCIA
+========================================= */
+
+.info-provincia {
+    min-height: 430px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #f7fbf7,
+            #edf6ef
+        );
+
+    border: 1px solid #dce8df;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.info-provincia-vacia {
+    text-align: center;
+
+    max-width: 300px;
+}
+
+.info-provincia-vacia span {
+    display: block;
+
+    font-size: 52px;
+
+    margin-bottom: 12px;
+}
+
+.info-provincia-vacia h3 {
+    margin: 0 0 8px;
+
+    color: #2d7040;
+
+    font-size: 21px;
+}
+
+.info-provincia-vacia p {
+    margin: 0;
+
+    color: #75817a;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   PROVINCIA SELECCIONADA
+========================================= */
+
+.provincia-seleccionada {
+    width: 100%;
+}
+
+.provincia-icono {
+    width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #dff2df;
+
+    border-radius: 18px;
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+
+.provincia-seleccionada .etiqueta {
+    color: #4a9d4d;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+.provincia-seleccionada h2 {
+    margin: 5px 0 10px;
+
+    color: #214a35;
+
+    font-size: 28px;
+}
+
+.provincia-seleccionada p {
+    color: #718078;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   TARJETA DE PLANTAS
+========================================= */
+
+.provincia-plantas {
+    margin-top: 20px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #dce8df;
+}
+
+.provincia-plantas h3 {
+    margin: 0 0 12px;
+
+    color: #315f3f;
+
+    font-size: 16px;
+}
+
+.plantas-provincia {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.planta-provincia {
+    padding: 8px 11px;
+
+    background: white;
+
+    border: 1px solid #dce8df;
+
+    border-radius: 10px;
+
+    color: #3f8147;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .hero-planta {
+        display: none;
+    }
+
+    .grid-principal {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .condiciones-card {
+        grid-column: span 2;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+
+    .mapa-area {
+        grid-template-columns: 1fr;
+    }
+
+    .mapa-svg {
+        min-height: 450px;
+    }
+
+    .info-provincia {
+        min-height: 300px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .sidebar {
+        position: relative;
+
+        width: 100%;
+
+        height: auto;
+    }
+
+    .sidebar nav {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .sidebar-bottom {
+        display: none;
+    }
+
+    .contenido {
+        margin-left: 0;
+
+        padding: 15px;
+    }
+
+    .topbar {
+        height: auto;
+
+        padding: 15px 0;
+
+        gap: 10px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .grid-principal {
+        grid-template-columns: 1fr;
+    }
+
+    .condiciones-card {
+        grid-column: auto;
+    }
+
+    .categorias {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info-final {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .ficha-cabecera {
+        flex-direction: column-reverse;
+
+        align-items: stretch;
+    }
+
+    .ficha-imagen {
+        width: 100%;
+
+        height: 220px;
+    }
+
+    .ficha-informacion {
+        width: 100%;
+    }
+
+    .datos-planta {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .mapa-contenedor {
+        padding: 18px;
+    }
+
+    .mapa-cabecera {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .mapa-indicador {
+        white-space: normal;
+    }
+
+    .mapa-svg {
+        min-height: 350px;
+
+        padding: 12px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .buscador {
+        flex-wrap: wrap;
+
+        padding: 10px;
+    }
+
+    .buscador input {
+        width: 80%;
+    }
+
+    .buscador button {
+        width: 100%;
+
+        margin-top: 8px;
+    }
+
+    .categorias {
+        grid-template-columns: 1fr;
+    }
+
+    .info-final {
+        grid-template-columns: 1fr;
+    }
+
+    .condiciones {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* =========================================
+   MAPA - GALERÍA DE PLANTAS POR PROVINCIA
+========================================= */
+
+.mapa-svg object {
+    width: 100%;
+    max-width: 650px;
+    height: 600px;
+    display: block;
+}
+
+.provincia-datos-clima {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.provincia-datos-clima div {
+    background: white;
+    border: 1px solid #dce8df;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.provincia-datos-clima span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.provincia-datos-clima strong {
+    display: block;
+    color: #315f3f;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.provincia-datos-clima small {
+    display: block;
+    color: #75817a;
+    line-height: 1.35;
+    font-size: 10px;
+}
+
+.galeria-plantas-provincia {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.planta-galeria-card {
+    overflow: hidden;
+    background: white;
+    border: 1px solid #dce8df;
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.planta-galeria-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 18px rgba(30, 70, 45, 0.10);
+}
+
+.planta-galeria-imagen {
+    position: relative;
+    height: 120px;
+    background: linear-gradient(135deg, #edf8d8, #d5ebba);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.planta-galeria-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.planta-imagen-fallback {
+    position: absolute;
+    font-size: 38px;
+}
+
+.planta-galeria-imagen:not(.sin-imagen) .planta-imagen-fallback {
+    display: none;
+}
+
+.planta-galeria-contenido {
+    padding: 11px;
+}
+
+.planta-galeria-contenido h4 {
+    margin: 0 0 3px;
+    color: #2d7040;
+    font-size: 15px;
+}
+
+.nombre-cientifico {
+    margin: 0 0 9px;
+    color: #718078;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.planta-clima-mini {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #62736a;
+    font-size: 10px;
+}
+
+.sin-plantas-provincia {
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border: 1px dashed #cddbd0;
+    border-radius: 12px;
+}
+
+.sin-plantas-provincia span {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+.sin-plantas-provincia p {
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .galeria-plantas-provincia {
+        grid-template-columns: 1fr;
+    }
+
+    .mapa-svg object {
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .provincia-datos-clima {
+        grid-template-columns: 1fr;
+    }
+
+    .mapa-svg object {
+        height: 400px;
+    }
+}
+
+
+/* =========================================
+   FONDO ANDINO DIFUMINADO
+   No altera el contenido ni la tipografía.
+========================================= */
+
+body {
+    position: relative;
+    background: #eef5ef;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("fondo-andes.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(7px);
+    transform: scale(1.04);
+    opacity: 0.42;
+    pointer-events: none;
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(248, 251, 247, 0.58);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* =========================================
+   CENTRO DE INSECTOS Y BICHOS
+   Agregado sin alterar el diseño existente
+========================================= */
+
+.bichos-panel{width:100%;}
+.bichos-selector{background:rgba(255,255,255,.88);border:1px solid rgba(54,96,62,.14);border-radius:18px;padding:20px 22px;margin-bottom:18px;box-shadow:0 8px 24px rgba(38,66,43,.08);backdrop-filter:blur(8px);}
+.bichos-selector label{display:block;font-weight:700;color:#315d39;margin-bottom:8px;font-size:14px;}
+.bichos-selector select{width:100%;max-width:520px;padding:12px 14px;border:1px solid #cbdaca;border-radius:10px;background:#fff;color:#36513c;font-size:15px;outline:none;}
+.bichos-selector select:focus{border-color:#65936d;box-shadow:0 0 0 3px rgba(101,147,109,.12);}
+.bichos-nota{margin:10px 0 0;color:#748078;font-size:11px;line-height:1.5;max-width:850px;}
+.bichos-vacio{background:rgba(255,255,255,.84);border-radius:18px;padding:42px 25px;text-align:center;border:1px solid rgba(54,96,62,.12);}
+.bichos-vacio span{font-size:42px;display:block;margin-bottom:10px;}
+.bichos-vacio h2{margin:0 0 8px;color:#315d39;font-size:21px;}
+.bichos-vacio p{margin:0 auto;color:#748078;max-width:600px;line-height:1.6;font-size:13px;}
+.lista-bichos-provincia{display:flex;flex-direction:column;gap:16px;}
+.bicho-card{display:grid;grid-template-columns:minmax(230px,34%) 1fr;background:rgba(255,255,255,.92);border:1px solid rgba(54,96,62,.14);border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(38,66,43,.08);backdrop-filter:blur(7px);}
+.bicho-imagen{min-height:300px;background:#e8eee5;overflow:hidden;}
+.bicho-imagen img{width:100%;height:100%;min-height:300px;object-fit:cover;display:block;}
+.bicho-info{padding:20px 22px;}
+.bicho-superior{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:7px;}
+.bicho-superior h3{margin:0;color:#315d39;font-size:21px;line-height:1.2;}
+.bicho-cientifico{font-size:12px;color:#76827a;font-style:italic;margin:5px 0 13px;}
+.bicho-badge{white-space:nowrap;border-radius:20px;padding:6px 10px;background:#edf5ea;color:#47704d;font-size:10px;font-weight:700;}
+.bicho-datos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:12px;}
+.bicho-dato{background:#f4f8f3;border-radius:10px;padding:10px 11px;}
+.bicho-dato strong{display:block;font-size:11px;color:#416447;margin-bottom:3px;}
+.bicho-dato span{display:block;font-size:11px;color:#6f7b73;line-height:1.45;}
+.bicho-seccion{margin-top:13px;}
+.bicho-seccion h4{margin:0 0 4px;color:#3b6241;font-size:12px;}
+.bicho-seccion p{margin:0;color:#69766e;font-size:11px;line-height:1.55;}
+.bicho-fuente{margin-top:14px;padding-top:10px;border-top:1px solid #e2e9e1;color:#7b857e;font-size:10px;line-height:1.45;}
+.bicho-fuente strong{color:#52665a;}
+@media(max-width:800px){.bicho-card{grid-template-columns:1fr}.bicho-imagen,.bicho-imagen img{min-height:230px;height:230px}.bicho-datos{grid-template-columns:1fr}.bicho-superior{flex-direction:column}.bicho-badge{align-self:flex-start}}
+
+
+/* =========================================
+   IMAGENES DE BICHOS - CARGA ROBUSTA
+   Acepta JPG, JPEG, PNG, WEBP o SVG.
+========================================= */
+.bicho-imagen{position:relative;display:flex;align-items:center;justify-content:center;}
+.bicho-imagen img{position:relative;z-index:1;}
+.bicho-imagen-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;color:#637168;background:#e8eee5;z-index:0;}
+.bicho-imagen-fallback span{font-size:38px;margin-bottom:8px;}
+.bicho-imagen-fallback p{margin:0 0 3px;font-size:12px;}
+.bicho-imagen-fallback strong{font-size:13px;color:#416447;}
+.bicho-imagen-fallback small{margin-top:8px;font-size:10px;color:#7b857e;}
+.bicho-imagen-fallback:not(.visible){display:none;}
+
+
+/* =====================================================
+   FOTOGRAFÍAS DE BICHOS - SELECCIÓN DESDE LA PC
+   No cambia el diseño de la ficha; solo permite
+   reemplazar la imagen por una fotografía del usuario.
+===================================================== */
+.bicho-imagen{position:relative;}
+.bicho-imagen img{position:relative;z-index:1;}
+.bicho-imagen-fallback{position:absolute;inset:0;z-index:2;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;color:#637168;background:#e8eee5;}
+.bicho-imagen-fallback.visible{display:flex;}
+.bicho-imagen-fallback span{font-size:38px;margin-bottom:8px;}
+.bicho-imagen-fallback p{margin:0 0 3px;font-size:12px;}
+.bicho-imagen-fallback strong{font-size:13px;color:#416447;max-width:90%;}
+.bicho-imagen-fallback small{margin-top:8px;font-size:10px;color:#7b857e;}
+.boton-elegir-bicho{margin-top:12px;display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border-radius:10px;background:#397f47;color:#fff;font-size:12px;font-weight:700;cursor:pointer;}
+.boton-elegir-bicho:hover{filter:brightness(1.06);}
+.boton-cambiar-bicho{position:absolute;right:10px;bottom:10px;z-index:3;display:none;border:0;border-radius:9px;padding:8px 11px;background:rgba(255,255,255,.93);color:#315d39;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(30,60,35,.14);}
+.boton-cambiar-bicho.visible{display:block;}
+.bicho-foto-activa{display:block!important;}
+
+/* IMAGENES PREDETERMINADAS: sin selector de archivos */
+.bicho-imagen .boton-elegir-bicho,.bicho-imagen .boton-cambiar-bicho{display:none!important;}
+
+/* =====================================================
+   FOTOGRAFÍAS PREDETERMINADAS DE PLAGAS - SOLO JPG
+   El visitante no puede reemplazarlas desde la página.
+   ===================================================== */
+.bicho-imagen {
+    position: relative;
+    overflow: hidden;
+    background: #e8eee5;
+}
+
+.bicho-imagen img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.bicho-imagen-fallback {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #637168;
+    background: #e8eee5;
+}
+
+.bicho-imagen-fallback.visible {
+    display: flex;
+}
+
+.bicho-imagen-fallback span {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.bicho-imagen-fallback p {
+    margin: 0 0 3px;
+    font-size: 13px;
+}
+
+.bicho-imagen-fallback small {
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+@media(max-width:800px){
+    .bicho-imagen,
+    .bicho-imagen img {
+        min-height: 230px;
+        height: 230px;
+    }
+}
