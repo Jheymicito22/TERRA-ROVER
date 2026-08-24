@@ -2082,3 +2082,55 @@ body::after {
         height: 230px;
     }
 }
+
+
+/* =========================================
+   MAPA RESPONSIVO EN CELULARES
+   No cambia el diseño del mapa; solo evita
+   que el SVG se recorte horizontalmente.
+========================================= */
+.mapa-svg {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mapa-svg img {
+    width: 100% !important;
+    height: auto !important;
+    min-width: 0 !important;
+    max-width: 650px !important;
+    max-height: none !important;
+    object-fit: contain;
+    flex: 0 1 auto;
+}
+
+@media (max-width: 600px) {
+    .mapa-contenedor {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mapa-area {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .mapa-svg {
+        width: 100%;
+        min-width: 0;
+        min-height: 0;
+        height: auto;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .mapa-svg img {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        margin: 0 auto;
+    }
+}
