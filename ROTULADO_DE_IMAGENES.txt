@@ -1,0 +1,103 @@
+ROTULADO EXACTO DE LAS 60 FOTOGRAFIAS
+===================================
+
+[Aija]
+1. bichos/Aija/1_gorgojo_de_los_andes.jpg
+2. bichos/Aija/2_pulguilla_saltona.jpg
+3. bichos/Aija/3_polilla_de_la_papa.jpg
+
+[Bolognesi]
+1. bichos/Bolognesi/1_gorgojo_de_los_andes.jpg
+2. bichos/Bolognesi/2_pulguilla_saltona.jpg
+3. bichos/Bolognesi/3_polilla_de_la_papa.jpg
+
+[Carhuaz]
+1. bichos/Carhuaz/1_gorgojo_de_los_andes.jpg
+2. bichos/Carhuaz/2_pulguilla_saltona.jpg
+3. bichos/Carhuaz/3_polilla_de_la_papa.jpg
+
+[Corongo]
+1. bichos/Corongo/1_gorgojo_de_los_andes.jpg
+2. bichos/Corongo/2_pulguilla_saltona.jpg
+3. bichos/Corongo/3_polilla_de_la_papa.jpg
+
+[Yungay]
+1. bichos/Yungay/1_gorgojo_de_los_andes.jpg
+2. bichos/Yungay/2_pulguilla_saltona.jpg
+3. bichos/Yungay/3_polilla_de_la_papa.jpg
+
+[Recuay]
+1. bichos/Recuay/1_gorgojo_de_los_andes.jpg
+2. bichos/Recuay/2_pulguilla_saltona.jpg
+3. bichos/Recuay/3_polilla_de_la_papa.jpg
+
+[Pallasca]
+1. bichos/Pallasca/1_gorgojo_de_los_andes.jpg
+2. bichos/Pallasca/2_pulguilla_saltona.jpg
+3. bichos/Pallasca/3_polilla_de_la_papa.jpg
+
+[Huari]
+1. bichos/Huari/1_gorgojo_de_los_andes.jpg
+2. bichos/Huari/2_pulguilla_saltona.jpg
+3. bichos/Huari/3_polilla_de_la_papa.jpg
+
+[Asunción]
+1. bichos/Asunción/1_gorgojo_de_los_andes.jpg
+2. bichos/Asunción/2_pulguilla_saltona.jpg
+3. bichos/Asunción/3_polilla_de_la_papa.jpg
+
+[Mariscal Luzuriaga]
+1. bichos/Mariscal_Luzuriaga/1_gorgojo_de_los_andes.jpg
+2. bichos/Mariscal_Luzuriaga/2_pulguilla_saltona.jpg
+3. bichos/Mariscal_Luzuriaga/3_polilla_de_la_papa.jpg
+
+[Antonio Raymondi]
+1. bichos/Antonio_Raymondi/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Antonio_Raymondi/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Antonio_Raymondi/3_gusano_bellotero_del_fruto.jpg
+
+[Casma]
+1. bichos/Casma/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Casma/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Casma/3_gusano_bellotero_del_fruto.jpg
+
+[Huarmey]
+1. bichos/Huarmey/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Huarmey/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Huarmey/3_gusano_bellotero_del_fruto.jpg
+
+[Huaylas]
+1. bichos/Huaylas/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Huaylas/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Huaylas/3_gusano_bellotero_del_fruto.jpg
+
+[Huaraz]
+1. bichos/Huaraz/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Huaraz/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Huaraz/3_gusano_bellotero_del_fruto.jpg
+
+[Carlos Fermín Fitzcarrald]
+1. bichos/Carlos_Fermín_Fitzcarrald/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Carlos_Fermín_Fitzcarrald/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Carlos_Fermín_Fitzcarrald/3_gusano_bellotero_del_fruto.jpg
+
+[Ocros]
+1. bichos/Ocros/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Ocros/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Ocros/3_gusano_bellotero_del_fruto.jpg
+
+[Pomabamba]
+1. bichos/Pomabamba/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Pomabamba/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Pomabamba/3_gusano_bellotero_del_fruto.jpg
+
+[Santa]
+1. bichos/Santa/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Santa/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Santa/3_gusano_bellotero_del_fruto.jpg
+
+[Sihuas]
+1. bichos/Sihuas/1_mosca_mediterranea_de_la_fruta.jpg
+2. bichos/Sihuas/2_mosca_sudamericana_de_la_fruta.jpg
+3. bichos/Sihuas/3_gusano_bellotero_del_fruto.jpg
+

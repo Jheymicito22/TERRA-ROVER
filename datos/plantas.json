@@ -1,0 +1,6602 @@
+[
+    {
+        "id": 1,
+        "nombre": "Wallmi wallmi / barba vieja",
+        "nombreCientifico": "Achyrocline glechonophylla",
+        "imagen": "wallmi-wallmi-barba-vieja.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 2,
+        "nombre": "Kiwi",
+        "nombreCientifico": "Actinidia deliciosa",
+        "imagen": "kiwi.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 3,
+        "nombre": "Poro / puerro",
+        "nombreCientifico": "Allium ampeloprasum var. porrum",
+        "imagen": "poro-puerro.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 4,
+        "nombre": "Cebolla",
+        "nombreCientifico": "Allium cepa",
+        "imagen": "cebolla.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 5,
+        "nombre": "Cebollín / cebolla china",
+        "nombreCientifico": "Allium fistulosum",
+        "imagen": "cebollin-cebolla-china.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 6,
+        "nombre": "Ajo",
+        "nombreCientifico": "Allium sativum",
+        "imagen": "ajo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 7,
+        "nombre": "Aliso andino",
+        "nombreCientifico": "Alnus acuminata",
+        "imagen": "aliso-andino.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 8,
+        "nombre": "Cedrón / hierba luisa",
+        "nombreCientifico": "Aloysia citrodora",
+        "imagen": "cedron-hierba-luisa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 9,
+        "nombre": "Alternantera / hierba de hoja plateada",
+        "nombreCientifico": "Alternanthera halimifolia",
+        "imagen": "alternantera-hierba-de-hoja-plateada.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 10,
+        "nombre": "Alternantera espinosa",
+        "nombreCientifico": "Alternanthera pungens",
+        "imagen": "alternantera-espinosa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 11,
+        "nombre": "Kiwicha / amaranto",
+        "nombreCientifico": "Amaranthus caudatus",
+        "imagen": "kiwicha-amaranto.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 12,
+        "nombre": "Amaranto / bledo",
+        "nombreCientifico": "Amaranthus hybridus",
+        "imagen": "amaranto-bledo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 13,
+        "nombre": "Bledo espinoso / yuyo espinoso",
+        "nombreCientifico": "Amaranthus spinosus",
+        "imagen": "bledo-espinoso-yuyo-espinoso.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 14,
+        "nombre": "Bledo / amaranto verde",
+        "nombreCientifico": "Amaranthus viridis",
+        "imagen": "bledo-amaranto-verde.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 15,
+        "nombre": "Marco / altamisa",
+        "nombreCientifico": "Ambrosia arborescens",
+        "imagen": "marco-altamisa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 16,
+        "nombre": "Ambrosia peruana / altamisa",
+        "nombreCientifico": "Ambrosia peruviana",
+        "imagen": "ambrosia-peruana-altamisa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 17,
+        "nombre": "Piña",
+        "nombreCientifico": "Ananas comosus",
+        "imagen": "pina.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 18,
+        "nombre": "Chirimoya",
+        "nombreCientifico": "Annona cherimola",
+        "imagen": "chirimoya.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 19,
+        "nombre": "Boca de dragón",
+        "nombreCientifico": "Antirrhinum majus",
+        "imagen": "boca-de-dragon.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 20,
+        "nombre": "Apio",
+        "nombreCientifico": "Apium graveolens",
+        "imagen": "apio.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 21,
+        "nombre": "Maní / cacahuate",
+        "nombreCientifico": "Arachis hypogaea",
+        "imagen": "mani-cacahuate.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 22,
+        "nombre": "Arracacha / racacha",
+        "nombreCientifico": "Arracacia xanthorrhiza",
+        "imagen": "arracacha-racacha.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 23,
+        "nombre": "Ajenjo",
+        "nombreCientifico": "Artemisia absinthium",
+        "imagen": "ajenjo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 24,
+        "nombre": "Estragón",
+        "nombreCientifico": "Artemisia dracunculus",
+        "imagen": "estragon.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 25,
+        "nombre": "Flor de sangre / bandera española",
+        "nombreCientifico": "Asclepias curassavica",
+        "imagen": "flor-de-sangre-bandera-espanola.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 26,
+        "nombre": "Espárrago",
+        "nombreCientifico": "Asparagus officinalis",
+        "imagen": "esparrago.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 27,
+        "nombre": "Avena",
+        "nombreCientifico": "Avena sativa",
+        "imagen": "avena.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 28,
+        "nombre": "Carambola",
+        "nombreCientifico": "Averrhoa carambola",
+        "imagen": "carambola.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 29,
+        "nombre": "Yareta / planta almohadillada andina",
+        "nombreCientifico": "Azorella aretioides",
+        "imagen": "yareta-planta-almohadillada-andina.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 30,
+        "nombre": "Carqueja / chilca",
+        "nombreCientifico": "Baccharis genistelloides",
+        "imagen": "carqueja-chilca.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 31,
+        "nombre": "Chilca",
+        "nombreCientifico": "Baccharis latifolia",
+        "imagen": "chilca.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 32,
+        "nombre": "Chilca de hoja de sauce",
+        "nombreCientifico": "Baccharis salicifolia",
+        "imagen": "chilca-de-hoja-de-sauce.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 33,
+        "nombre": "Chilca / tola",
+        "nombreCientifico": "Baccharis tricuneata",
+        "imagen": "chilca-tola.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 34,
+        "nombre": "Espino andino / Barnadesia",
+        "nombreCientifico": "Barnadesia dombeyana",
+        "imagen": "espino-andino-barnadesia.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 35,
+        "nombre": "Begonia",
+        "nombreCientifico": "Begonia semperflorens",
+        "imagen": "begonia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 36,
+        "nombre": "Agracejo andino / espino",
+        "nombreCientifico": "Berberis commutata",
+        "imagen": "agracejo-andino-espino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 37,
+        "nombre": "Betarraga / remolacha",
+        "nombreCientifico": "Beta vulgaris",
+        "imagen": "betarraga-remolacha.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 38,
+        "nombre": "Acelga",
+        "nombreCientifico": "Beta vulgaris var. cicla",
+        "imagen": "acelga.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 39,
+        "nombre": "Amor seco / cadillo",
+        "nombreCientifico": "Bidens pilosa",
+        "imagen": "amor-seco-cadillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 40,
+        "nombre": "Buganvilla / veranera",
+        "nombreCientifico": "Bougainvillea glabra",
+        "imagen": "buganvilla-veranera.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 41,
+        "nombre": "Col rizada / kale",
+        "nombreCientifico": "Brassica oleracea var. acephala",
+        "imagen": "col-rizada-kale.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 42,
+        "nombre": "Coliflor",
+        "nombreCientifico": "Brassica oleracea var. botrytis",
+        "imagen": "coliflor.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 43,
+        "nombre": "Repollo / col",
+        "nombreCientifico": "Brassica oleracea var. capitata",
+        "imagen": "repollo-col.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 44,
+        "nombre": "Colinabo / colirrábano",
+        "nombreCientifico": "Brassica oleracea var. gongylodes",
+        "imagen": "colinabo-colirrabano.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 45,
+        "nombre": "Brócoli",
+        "nombreCientifico": "Brassica oleracea var. italica",
+        "imagen": "brocoli.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 46,
+        "nombre": "Col china / bok choy",
+        "nombreCientifico": "Brassica rapa subsp. chinensis",
+        "imagen": "col-china-bok-choy.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 47,
+        "nombre": "Col napa / repollo chino",
+        "nombreCientifico": "Brassica rapa subsp. pekinensis",
+        "imagen": "col-napa-repollo-chino.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 48,
+        "nombre": "Nabo",
+        "nombreCientifico": "Brassica rapa subsp. rapa",
+        "imagen": "nabo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 49,
+        "nombre": "Floripondio rojo / trompeta de ángel",
+        "nombreCientifico": "Brugmansia sanguinea",
+        "imagen": "floripondio-rojo-trompeta-de-angel.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 50,
+        "nombre": "Floripondio / trompeta de ángel",
+        "nombreCientifico": "Brugmansia versicolor",
+        "imagen": "floripondio-trompeta-de-angel.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 51,
+        "nombre": "Colle / kiswar",
+        "nombreCientifico": "Buddleja coriacea",
+        "imagen": "colle-kiswar.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 52,
+        "nombre": "Quishuar / kiswar",
+        "nombreCientifico": "Buddleja incana",
+        "imagen": "quishuar-kiswar.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 53,
+        "nombre": "Quishuar de montaña",
+        "nombreCientifico": "Buddleja montana",
+        "imagen": "quishuar-de-montana.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 54,
+        "nombre": "Quishuar / kiswar",
+        "nombreCientifico": "Buddleja utilis",
+        "imagen": "quishuar-kiswar.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 55,
+        "nombre": "Tara",
+        "nombreCientifico": "Caesalpinia spinosa",
+        "imagen": "tara.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 56,
+        "nombre": "Caléndula / maravilla",
+        "nombreCientifico": "Calendula officinalis",
+        "imagen": "calendula-maravilla.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 57,
+        "nombre": "Camelia",
+        "nombreCientifico": "Camellia japonica",
+        "imagen": "camelia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 58,
+        "nombre": "Achira / achira andina",
+        "nombreCientifico": "Canna indica",
+        "imagen": "achira-achira-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 59,
+        "nombre": "Cantuta / flor sagrada de los incas",
+        "nombreCientifico": "Cantua buxifolia",
+        "imagen": "cantuta-flor-sagrada-de-los-incas.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 60,
+        "nombre": "Pimiento / pimentón",
+        "nombreCientifico": "Capsicum annuum",
+        "imagen": "pimiento-pimenton.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 61,
+        "nombre": "Ají amarillo / ají escabeche",
+        "nombreCientifico": "Capsicum baccatum",
+        "imagen": "aji-amarillo-aji-escabeche.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 62,
+        "nombre": "Rocoto",
+        "nombreCientifico": "Capsicum pubescens",
+        "imagen": "rocoto.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 63,
+        "nombre": "Globo / farolito",
+        "nombreCientifico": "Cardiospermum halicacabum",
+        "imagen": "globo-farolito.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 64,
+        "nombre": "Papaya",
+        "nombreCientifico": "Carica papaya",
+        "imagen": "papaya.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 65,
+        "nombre": "Hierba santa / galán de noche",
+        "nombreCientifico": "Cestrum auriculatum",
+        "imagen": "hierba-santa-galan-de-noche.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 66,
+        "nombre": "Cestrum andino / galán de noche",
+        "nombreCientifico": "Cestrum humboldtii",
+        "imagen": "cestrum-andino-galan-de-noche.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 67,
+        "nombre": "Palqui / hediondilla",
+        "nombreCientifico": "Cestrum parqui",
+        "imagen": "palqui-hediondilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 68,
+        "nombre": "Cenizo / quinua negra silvestre",
+        "nombreCientifico": "Chenopodium murale",
+        "imagen": "cenizo-quinua-negra-silvestre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 69,
+        "nombre": "Cañihua / kañiwa",
+        "nombreCientifico": "Chenopodium pallidicaule",
+        "imagen": "canihua-kaniwa.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 70,
+        "nombre": "Cenizo andino",
+        "nombreCientifico": "Chenopodium petiolare",
+        "imagen": "cenizo-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 71,
+        "nombre": "Quinua",
+        "nombreCientifico": "Chenopodium quinoa",
+        "imagen": "quinua.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 72,
+        "nombre": "Chilca / flor de montaña",
+        "nombreCientifico": "Chromolaena eripsima",
+        "imagen": "chilca-flor-de-montana.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 73,
+        "nombre": "Crisantemo",
+        "nombreCientifico": "Chrysanthemum × morifolium",
+        "imagen": "crisantemo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 74,
+        "nombre": "Chuquiragua / flor de los Andes",
+        "nombreCientifico": "Chuquiraga jussieui",
+        "imagen": "chuquiragua-flor-de-los-andes.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 75,
+        "nombre": "Garbanzo",
+        "nombreCientifico": "Cicer arietinum",
+        "imagen": "garbanzo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 76,
+        "nombre": "Escarola",
+        "nombreCientifico": "Cichorium endivia",
+        "imagen": "escarola.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 77,
+        "nombre": "Endibia / achicoria de Bruselas",
+        "nombreCientifico": "Cichorium intybus var. foliosum",
+        "imagen": "endibia-achicoria-de-bruselas.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 78,
+        "nombre": "Sandía",
+        "nombreCientifico": "Citrullus lanatus",
+        "imagen": "sandia.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 79,
+        "nombre": "Mandarina",
+        "nombreCientifico": "Citrus reticulata",
+        "imagen": "mandarina.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 80,
+        "nombre": "Naranja",
+        "nombreCientifico": "Citrus sinensis",
+        "imagen": "naranja.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 81,
+        "nombre": "Lima",
+        "nombreCientifico": "Citrus × aurantiifolia",
+        "imagen": "lima.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 82,
+        "nombre": "Limón",
+        "nombreCientifico": "Citrus × limon",
+        "imagen": "limon.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 83,
+        "nombre": "Toronja / pomelo",
+        "nombreCientifico": "Citrus × paradisi",
+        "imagen": "toronja-pomelo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 84,
+        "nombre": "Clemátide peruana",
+        "nombreCientifico": "Clematis peruviana",
+        "imagen": "clematide-peruana.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 85,
+        "nombre": "Muña",
+        "nombreCientifico": "Clinopodium bolivianum",
+        "imagen": "muna.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 86,
+        "nombre": "Muña",
+        "nombreCientifico": "Clinopodium nubigenum",
+        "imagen": "muna.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 87,
+        "nombre": "Café",
+        "nombreCientifico": "Coffea arabica",
+        "imagen": "cafe.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 88,
+        "nombre": "Pituca / malanga",
+        "nombreCientifico": "Colocasia esculenta",
+        "imagen": "pituca-malanga.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 89,
+        "nombre": "Rama negra / coniza",
+        "nombreCientifico": "Conyza bonariensis",
+        "imagen": "rama-negra-coniza.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 90,
+        "nombre": "Cilantro / culantro",
+        "nombreCientifico": "Coriandrum sativum",
+        "imagen": "cilantro-culantro.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 91,
+        "nombre": "Huiñal / coriaria",
+        "nombreCientifico": "Coriaria ruscifolia",
+        "imagen": "huinal-coriaria.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 92,
+        "nombre": "Cosmos / mirasol",
+        "nombreCientifico": "Cosmos bipinnatus",
+        "imagen": "cosmos-mirasol.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 93,
+        "nombre": "Cotula / botón de oro",
+        "nombreCientifico": "Cotula australis",
+        "imagen": "cotula-boton-de-oro.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 94,
+        "nombre": "Melón",
+        "nombreCientifico": "Cucumis melo",
+        "imagen": "melon.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 95,
+        "nombre": "Pepino",
+        "nombreCientifico": "Cucumis sativus",
+        "imagen": "pepino.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 96,
+        "nombre": "Zapallo",
+        "nombreCientifico": "Cucurbita maxima",
+        "imagen": "zapallo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 97,
+        "nombre": "Zapallito italiano / calabacín",
+        "nombreCientifico": "Cucurbita pepo",
+        "imagen": "zapallito-italiano-calabacin.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 98,
+        "nombre": "Membrillo",
+        "nombreCientifico": "Cydonia oblonga",
+        "imagen": "membrillo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 99,
+        "nombre": "Bejuco andino",
+        "nombreCientifico": "Cynanchum formosum",
+        "imagen": "bejuco-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 100,
+        "nombre": "Cardo",
+        "nombreCientifico": "Cynara cardunculus",
+        "imagen": "cardo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 101,
+        "nombre": "Alcachofa",
+        "nombreCientifico": "Cynara cardunculus var. scolymus",
+        "imagen": "alcachofa.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 102,
+        "nombre": "Dalia",
+        "nombreCientifico": "Dahlia pinnata",
+        "imagen": "dalia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 103,
+        "nombre": "Floripondio / estramonio",
+        "nombreCientifico": "Datura stramonium",
+        "imagen": "floripondio-estramonio.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 104,
+        "nombre": "Zanahoria",
+        "nombreCientifico": "Daucus carota",
+        "imagen": "zanahoria.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 105,
+        "nombre": "Delilia",
+        "nombreCientifico": "Delilia biflora",
+        "imagen": "delilia.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 106,
+        "nombre": "Clavel",
+        "nombreCientifico": "Dianthus caryophyllus",
+        "imagen": "clavel.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 107,
+        "nombre": "Caqui / kaki",
+        "nombreCientifico": "Diospyros kaki",
+        "imagen": "caqui-kaki.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 108,
+        "nombre": "Chamisa / chilca",
+        "nombreCientifico": "Dodonaea viscosa",
+        "imagen": "chamisa-chilca.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 109,
+        "nombre": "Palo de Brasil",
+        "nombreCientifico": "Dracaena fragrans",
+        "imagen": "palo-de-brasil.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 110,
+        "nombre": "Lengua de suegra",
+        "nombreCientifico": "Dracaena trifasciata",
+        "imagen": "lengua-de-suegra.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 111,
+        "nombre": "Palmera areca",
+        "nombreCientifico": "Dypsis lutescens",
+        "imagen": "palmera-areca.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1800.0
+        },
+        "temperatura": {
+            "min": 20.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 60.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "150–400 cm"
+    },
+    {
+        "id": 112,
+        "nombre": "Paico",
+        "nombreCientifico": "Dysphania ambrosioides",
+        "imagen": "paico.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 113,
+        "nombre": "Helecho pequeño",
+        "nombreCientifico": "Elaphoglossum minutum",
+        "imagen": "helecho-pequeno.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 114,
+        "nombre": "Matorral / margarita del desierto",
+        "nombreCientifico": "Encelia canescens",
+        "imagen": "matorral-margarita-del-desierto.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 115,
+        "nombre": "Pinco-penco / cola de caballo andina",
+        "nombreCientifico": "Ephedra americana",
+        "imagen": "pinco-penco-cola-de-caballo-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 116,
+        "nombre": "Pinco-penco",
+        "nombreCientifico": "Ephedra rupestris",
+        "imagen": "pinco-penco.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 117,
+        "nombre": "Cola de caballo",
+        "nombreCientifico": "Equisetum bogotense",
+        "imagen": "cola-de-caballo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 118,
+        "nombre": "Cola de caballo gigante",
+        "nombreCientifico": "Equisetum giganteum",
+        "imagen": "cola-de-caballo-gigante.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 119,
+        "nombre": "Níspero",
+        "nombreCientifico": "Eriobotrya japonica",
+        "imagen": "nispero.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 120,
+        "nombre": "Cardo andino",
+        "nombreCientifico": "Eryngium humile",
+        "imagen": "cardo-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 121,
+        "nombre": "Pajuro / poroto de árbol",
+        "nombreCientifico": "Erythrina edulis",
+        "imagen": "pajuro-poroto-de-arbol.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 122,
+        "nombre": "Higo",
+        "nombreCientifico": "Ficus carica",
+        "imagen": "higo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 123,
+        "nombre": "Hinojo",
+        "nombreCientifico": "Foeniculum vulgare",
+        "imagen": "hinojo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 124,
+        "nombre": "Fresa / frutilla",
+        "nombreCientifico": "Fragaria × ananassa",
+        "imagen": "fresa-frutilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 125,
+        "nombre": "Pacoyuyo / guasca",
+        "nombreCientifico": "Galinsoga parviflora",
+        "imagen": "pacoyuyo-guasca.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 126,
+        "nombre": "Gardenia",
+        "nombreCientifico": "Gardenia jasminoides",
+        "imagen": "gardenia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 127,
+        "nombre": "Gladiolo",
+        "nombreCientifico": "Gladiolus × hortulanus",
+        "imagen": "gladiolo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 128,
+        "nombre": "Soya / soja",
+        "nombreCientifico": "Glycine max",
+        "imagen": "soya-soja.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 129,
+        "nombre": "Vira-vira / siempreviva",
+        "nombreCientifico": "Gnaphalium cheiranthifolium",
+        "imagen": "vira-vira-siempreviva.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 130,
+        "nombre": "Siempreviva andina",
+        "nombreCientifico": "Gomphrena oroyana",
+        "imagen": "siempreviva-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 131,
+        "nombre": "Yerba de la perdiz",
+        "nombreCientifico": "Guilleminea densa",
+        "imagen": "yerba-de-la-perdiz.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 132,
+        "nombre": "Gynoxys brillante",
+        "nombreCientifico": "Gynoxys nitida",
+        "imagen": "gynoxys-brillante.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 133,
+        "nombre": "Gynoxys de hojas oleosas",
+        "nombreCientifico": "Gynoxys oleifolia",
+        "imagen": "gynoxys-de-hojas-oleosas.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 134,
+        "nombre": "Topinambur / alcachofa de Jerusalén",
+        "nombreCientifico": "Helianthus tuberosus",
+        "imagen": "topinambur-alcachofa-de-jerusalen.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 135,
+        "nombre": "Hibisco / flor de Jamaica silvestre",
+        "nombreCientifico": "Hibiscus phoeniceus",
+        "imagen": "hibisco-flor-de-jamaica-silvestre.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 136,
+        "nombre": "Cebada",
+        "nombreCientifico": "Hordeum vulgare",
+        "imagen": "cebada.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 137,
+        "nombre": "Hortensia",
+        "nombreCientifico": "Hydrangea macrophylla",
+        "imagen": "hortensia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 138,
+        "nombre": "Achicoria del campo",
+        "nombreCientifico": "Hypochaeris chillensis",
+        "imagen": "achicoria-del-campo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 139,
+        "nombre": "Iocroma andino",
+        "nombreCientifico": "Iochroma umbellatum",
+        "imagen": "iocroma-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 140,
+        "nombre": "Iocroma verde",
+        "nombreCientifico": "Iochroma viridescens",
+        "imagen": "iocroma-verde.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 141,
+        "nombre": "Camote / batata",
+        "nombreCientifico": "Ipomoea batatas",
+        "imagen": "camote-batata.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 142,
+        "nombre": "Iresine / hierba de sangre",
+        "nombreCientifico": "Iresine diffusa",
+        "imagen": "iresine-hierba-de-sangre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 143,
+        "nombre": "Jazmín común",
+        "nombreCientifico": "Jasminum officinale",
+        "imagen": "jazmin-comun.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 144,
+        "nombre": "Jungia andina",
+        "nombreCientifico": "Jungia axillaris",
+        "imagen": "jungia-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 145,
+        "nombre": "Justicia andina",
+        "nombreCientifico": "Justicia sericea",
+        "imagen": "justicia-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 146,
+        "nombre": "Koanophyllon andino",
+        "nombreCientifico": "Koanophyllon flexile",
+        "imagen": "koanophyllon-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 147,
+        "nombre": "Lechuga",
+        "nombreCientifico": "Lactuca sativa",
+        "imagen": "lechuga.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 148,
+        "nombre": "Lantana / bandera española",
+        "nombreCientifico": "Lantana camara",
+        "imagen": "lantana-bandera-espanola.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 149,
+        "nombre": "Lantana andina",
+        "nombreCientifico": "Lantana rugulosa",
+        "imagen": "lantana-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 150,
+        "nombre": "Lavanda",
+        "nombreCientifico": "Lavandula angustifolia",
+        "imagen": "lavanda.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 151,
+        "nombre": "Lenteja",
+        "nombreCientifico": "Lens culinaris",
+        "imagen": "lenteja.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 152,
+        "nombre": "Salvia de los Andes / salvia silvestre",
+        "nombreCientifico": "Lepechinia meyenii",
+        "imagen": "salvia-de-los-andes-salvia-silvestre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 153,
+        "nombre": "Maca",
+        "nombreCientifico": "Lepidium meyenii",
+        "imagen": "maca.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 154,
+        "nombre": "Margarita",
+        "nombreCientifico": "Leucanthemum vulgare",
+        "imagen": "margarita.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 155,
+        "nombre": "Azucena / lirio",
+        "nombreCientifico": "Lilium candidum",
+        "imagen": "azucena-lirio.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 156,
+        "nombre": "Hierba luisa / pronto alivio",
+        "nombreCientifico": "Lippia alba",
+        "imagen": "hierba-luisa-pronto-alivio.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 157,
+        "nombre": "Madreselva",
+        "nombreCientifico": "Lonicera japonica",
+        "imagen": "madreselva.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 158,
+        "nombre": "Tarwi / chocho",
+        "nombreCientifico": "Lupinus mutabilis",
+        "imagen": "tarwi-chocho.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 159,
+        "nombre": "Tomatillo andino",
+        "nombreCientifico": "Lycianthes lycioides",
+        "imagen": "tomatillo-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 160,
+        "nombre": "Cambrón / Lycium americano",
+        "nombreCientifico": "Lycium americanum",
+        "imagen": "cambron-lycium-americano.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 161,
+        "nombre": "Manzana",
+        "nombreCientifico": "Malus domestica",
+        "imagen": "manzana.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 162,
+        "nombre": "Malva pequeña",
+        "nombreCientifico": "Malva parviflora",
+        "imagen": "malva-pequena.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 163,
+        "nombre": "Mandevilla andina",
+        "nombreCientifico": "Mandevilla brachyloba",
+        "imagen": "mandevilla-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 164,
+        "nombre": "Mango",
+        "nombreCientifico": "Mangifera indica",
+        "imagen": "mango.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 165,
+        "nombre": "Yuca / mandioca",
+        "nombreCientifico": "Manihot esculenta",
+        "imagen": "yuca-mandioca.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 166,
+        "nombre": "Manzanilla",
+        "nombreCientifico": "Matricaria chamomilla",
+        "imagen": "manzanilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 167,
+        "nombre": "Alelí",
+        "nombreCientifico": "Matthiola incana",
+        "imagen": "aleli.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 168,
+        "nombre": "Mauria andina",
+        "nombreCientifico": "Mauria simplicifolia",
+        "imagen": "mauria-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 169,
+        "nombre": "Aguaje",
+        "nombreCientifico": "Mauritia flexuosa",
+        "imagen": "aguaje.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 170,
+        "nombre": "Alfalfa",
+        "nombreCientifico": "Medicago sativa",
+        "imagen": "alfalfa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 171,
+        "nombre": "Toronjil / melisa",
+        "nombreCientifico": "Melissa officinalis",
+        "imagen": "toronjil-melisa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 172,
+        "nombre": "Hierbabuena / menta",
+        "nombreCientifico": "Mentha spicata",
+        "imagen": "hierbabuena-menta.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 173,
+        "nombre": "Muña",
+        "nombreCientifico": "Minthostachys mollis",
+        "imagen": "muna.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 174,
+        "nombre": "Costilla de Adán",
+        "nombreCientifico": "Monstera deliciosa",
+        "imagen": "costilla-de-adan.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 175,
+        "nombre": "Plátano / banana",
+        "nombreCientifico": "Musa × paradisiaca",
+        "imagen": "platano-banana.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 176,
+        "nombre": "Clavel del aire / mutisia",
+        "nombreCientifico": "Mutisia acuminata",
+        "imagen": "clavel-del-aire-mutisia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 177,
+        "nombre": "Clavel de los Andes",
+        "nombreCientifico": "Mutisia mathewsii",
+        "imagen": "clavel-de-los-andes.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 178,
+        "nombre": "Berro",
+        "nombreCientifico": "Nasturtium officinale",
+        "imagen": "berro.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 179,
+        "nombre": "Palán palán",
+        "nombreCientifico": "Nicotiana glauca",
+        "imagen": "palan-palan.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 180,
+        "nombre": "Tabaco rústico / mapacho",
+        "nombreCientifico": "Nicotiana rustica",
+        "imagen": "tabaco-rustico-mapacho.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 181,
+        "nombre": "Tabaco",
+        "nombreCientifico": "Nicotiana tabacum",
+        "imagen": "tabaco.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 182,
+        "nombre": "Suspiro / nolana",
+        "nombreCientifico": "Nolana gayana",
+        "imagen": "suspiro-nolana.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 183,
+        "nombre": "Albahaca",
+        "nombreCientifico": "Ocimum basilicum",
+        "imagen": "albahaca.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 184,
+        "nombre": "Albahaca morada",
+        "nombreCientifico": "Ocimum basilicum var. purpurascens",
+        "imagen": "albahaca-morada.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 185,
+        "nombre": "Olivo",
+        "nombreCientifico": "Olea europaea",
+        "imagen": "olivo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 186,
+        "nombre": "Onoseris olorosa",
+        "nombreCientifico": "Onoseris odorata",
+        "imagen": "onoseris-olorosa.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 187,
+        "nombre": "Tuna / higo de India",
+        "nombreCientifico": "Opuntia ficus-indica",
+        "imagen": "tuna-higo-de-india.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 30.0
+        },
+        "humedad": {
+            "min": 30.0,
+            "max": 60.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Arenoso o pedregoso, muy drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 188,
+        "nombre": "Oreopanax andino",
+        "nombreCientifico": "Oreopanax oroyanus",
+        "imagen": "oreopanax-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 189,
+        "nombre": "Orégano",
+        "nombreCientifico": "Origanum vulgare",
+        "imagen": "oregano.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 190,
+        "nombre": "Oca",
+        "nombreCientifico": "Oxalis tuberosa",
+        "imagen": "oca.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 191,
+        "nombre": "Amapola",
+        "nombreCientifico": "Papaver rhoeas",
+        "imagen": "amapola.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 192,
+        "nombre": "Flor de la pasión ornamental",
+        "nombreCientifico": "Passiflora caerulea",
+        "imagen": "flor-de-la-pasion-ornamental.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 193,
+        "nombre": "Maracuyá",
+        "nombreCientifico": "Passiflora edulis",
+        "imagen": "maracuya.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 194,
+        "nombre": "Maracuyá amarillo",
+        "nombreCientifico": "Passiflora edulis f. flavicarpa",
+        "imagen": "maracuya-amarillo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 195,
+        "nombre": "Granadilla amarilla",
+        "nombreCientifico": "Passiflora laurifolia",
+        "imagen": "granadilla-amarilla.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 196,
+        "nombre": "Granadilla",
+        "nombreCientifico": "Passiflora ligularis",
+        "imagen": "granadilla.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 197,
+        "nombre": "Granadilla de monte",
+        "nombreCientifico": "Passiflora tripartita",
+        "imagen": "granadilla-de-monte.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 198,
+        "nombre": "Tumbo serrano",
+        "nombreCientifico": "Passiflora tripartita var. mollissima",
+        "imagen": "tumbo-serrano.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 199,
+        "nombre": "Geranio",
+        "nombreCientifico": "Pelargonium × hortorum",
+        "imagen": "geranio.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 200,
+        "nombre": "Congona",
+        "nombreCientifico": "Peperomia inaequalifolia",
+        "imagen": "congona.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 201,
+        "nombre": "Palta / aguacate",
+        "nombreCientifico": "Persea americana",
+        "imagen": "palta-aguacate.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 202,
+        "nombre": "Perymenium del Huascarán",
+        "nombreCientifico": "Perymenium huascaranum",
+        "imagen": "perymenium-del-huascaran.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 203,
+        "nombre": "Perejil",
+        "nombreCientifico": "Petroselinum crispum",
+        "imagen": "perejil.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 204,
+        "nombre": "Petunia",
+        "nombreCientifico": "Petunia × atkinsiana",
+        "imagen": "petunia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 205,
+        "nombre": "Pallar / frijol de Lima",
+        "nombreCientifico": "Phaseolus lunatus",
+        "imagen": "pallar-frijol-de-lima.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 206,
+        "nombre": "Frijol / frejol",
+        "nombreCientifico": "Phaseolus vulgaris",
+        "imagen": "frijol-frejol.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 207,
+        "nombre": "Dátil / palmera datilera",
+        "nombreCientifico": "Phoenix dactylifera",
+        "imagen": "datil-palmera-datilera.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1800.0
+        },
+        "temperatura": {
+            "min": 20.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 60.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "150–400 cm"
+    },
+    {
+        "id": 208,
+        "nombre": "Bolsa de pastor / aguaymanto silvestre",
+        "nombreCientifico": "Physalis angulata",
+        "imagen": "bolsa-de-pastor-aguaymanto-silvestre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 209,
+        "nombre": "Aguaymanto / uvilla",
+        "nombreCientifico": "Physalis peruviana",
+        "imagen": "aguaymanto-uvilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 210,
+        "nombre": "Tomatillo / bolsa de pastor",
+        "nombreCientifico": "Physalis pubescens",
+        "imagen": "tomatillo-bolsa-de-pastor.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 211,
+        "nombre": "Matico / cordoncillo",
+        "nombreCientifico": "Piper aduncum",
+        "imagen": "matico-cordoncillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 212,
+        "nombre": "Matico",
+        "nombreCientifico": "Piper elongatum",
+        "imagen": "matico.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 213,
+        "nombre": "Santa María / cordoncillo",
+        "nombreCientifico": "Piper peltatum",
+        "imagen": "santa-maria-cordoncillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 214,
+        "nombre": "Cordoncillo",
+        "nombreCientifico": "Piper tuberculatum",
+        "imagen": "cordoncillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 215,
+        "nombre": "Arveja / guisante",
+        "nombreCientifico": "Pisum sativum",
+        "imagen": "arveja-guisante.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 216,
+        "nombre": "Sacha inchi / maní del monte",
+        "nombreCientifico": "Plukenetia volubilis",
+        "imagen": "sacha-inchi-mani-del-monte.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 217,
+        "nombre": "Quilquiña / pápalo",
+        "nombreCientifico": "Porophyllum ruderale",
+        "imagen": "quilquina-papalo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 218,
+        "nombre": "Lúcuma",
+        "nombreCientifico": "Pouteria lucuma",
+        "imagen": "lucuma.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 219,
+        "nombre": "Zapote",
+        "nombreCientifico": "Pouteria sapota",
+        "imagen": "zapote.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 220,
+        "nombre": "Albaricoque / damasco",
+        "nombreCientifico": "Prunus armeniaca",
+        "imagen": "albaricoque-damasco.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 221,
+        "nombre": "Ciruela",
+        "nombreCientifico": "Prunus domestica",
+        "imagen": "ciruela.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 222,
+        "nombre": "Durazno / melocotón",
+        "nombreCientifico": "Prunus persica",
+        "imagen": "durazno-melocoton.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 223,
+        "nombre": "Capulí / cerezo andino",
+        "nombreCientifico": "Prunus serotina subsp. capuli",
+        "imagen": "capuli-cerezo-andino.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 224,
+        "nombre": "Guayaba",
+        "nombreCientifico": "Psidium guajava",
+        "imagen": "guayaba.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 225,
+        "nombre": "Granada",
+        "nombreCientifico": "Punica granatum",
+        "imagen": "granada.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 226,
+        "nombre": "Pera",
+        "nombreCientifico": "Pyrus communis",
+        "imagen": "pera.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 227,
+        "nombre": "Rabanito / rábano",
+        "nombreCientifico": "Raphanus sativus",
+        "imagen": "rabanito-rabano.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 228,
+        "nombre": "Ruibarbo",
+        "nombreCientifico": "Rheum rhabarbarum",
+        "imagen": "ruibarbo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 229,
+        "nombre": "Ribes de hojas ovaladas",
+        "nombreCientifico": "Ribes ovalifolium",
+        "imagen": "ribes-de-hojas-ovaladas.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 230,
+        "nombre": "Mora / zarzamora",
+        "nombreCientifico": "Rubus fruticosus",
+        "imagen": "mora-zarzamora.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 231,
+        "nombre": "Mora",
+        "nombreCientifico": "Rubus glaucus",
+        "imagen": "mora.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 232,
+        "nombre": "Frambuesa",
+        "nombreCientifico": "Rubus idaeus",
+        "imagen": "frambuesa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 233,
+        "nombre": "Ruellia de muchas flores",
+        "nombreCientifico": "Ruellia floribunda",
+        "imagen": "ruellia-de-muchas-flores.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 234,
+        "nombre": "Ruda",
+        "nombreCientifico": "Ruta graveolens",
+        "imagen": "ruda.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 235,
+        "nombre": "Caña de azúcar",
+        "nombreCientifico": "Saccharum officinarum",
+        "imagen": "cana-de-azucar.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 236,
+        "nombre": "Salpichroa andina",
+        "nombreCientifico": "Salpichroa tristis",
+        "imagen": "salpichroa-andina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 237,
+        "nombre": "Salvia de Dombey",
+        "nombreCientifico": "Salvia dombeyi",
+        "imagen": "salvia-de-dombey.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 238,
+        "nombre": "Salvia",
+        "nombreCientifico": "Salvia officinalis",
+        "imagen": "salvia.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 239,
+        "nombre": "Romero",
+        "nombreCientifico": "Salvia rosmarinus",
+        "imagen": "romero.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 240,
+        "nombre": "Salvia flechada / salvia azul",
+        "nombreCientifico": "Salvia sagittata",
+        "imagen": "salvia-flechada-salvia-azul.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 241,
+        "nombre": "Saúco negro",
+        "nombreCientifico": "Sambucus nigra",
+        "imagen": "sauco-negro.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 242,
+        "nombre": "Saúco peruano",
+        "nombreCientifico": "Sambucus peruviana",
+        "imagen": "sauco-peruano.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 243,
+        "nombre": "Saracha punteada",
+        "nombreCientifico": "Saracha punctata",
+        "imagen": "saracha-punteada.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 244,
+        "nombre": "Molle",
+        "nombreCientifico": "Schinus areira",
+        "imagen": "molle.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 245,
+        "nombre": "Molle peruano",
+        "nombreCientifico": "Schinus molle",
+        "imagen": "molle-peruano.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 246,
+        "nombre": "Canchalagua / escobilla",
+        "nombreCientifico": "Schkuhria pinnata",
+        "imagen": "canchalagua-escobilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 247,
+        "nombre": "Pitahaya / fruta del dragón",
+        "nombreCientifico": "Selenicereus undatus",
+        "imagen": "pitahaya-fruta-del-dragon.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 30.0
+        },
+        "humedad": {
+            "min": 30.0,
+            "max": 60.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Arenoso o pedregoso, muy drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 248,
+        "nombre": "Bejuco / liana",
+        "nombreCientifico": "Serjania glabrata",
+        "imagen": "bejuco-liana.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 249,
+        "nombre": "Verdolaga de playa",
+        "nombreCientifico": "Sesuvium portulacastrum",
+        "imagen": "verdolaga-de-playa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 250,
+        "nombre": "Escobilla / sida",
+        "nombreCientifico": "Sida rhombifolia",
+        "imagen": "escobilla-sida.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 251,
+        "nombre": "Hierba de San Pablo",
+        "nombreCientifico": "Sigesbeckia orientalis",
+        "imagen": "hierba-de-san-pablo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 252,
+        "nombre": "Yacón",
+        "nombreCientifico": "Smallanthus sonchifolius",
+        "imagen": "yacon.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 253,
+        "nombre": "Hierba mora",
+        "nombreCientifico": "Solanum americanum",
+        "imagen": "hierba-mora.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 254,
+        "nombre": "Tomate silvestre",
+        "nombreCientifico": "Solanum arcanum",
+        "imagen": "tomate-silvestre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 255,
+        "nombre": "Tomate de árbol / sachatomate",
+        "nombreCientifico": "Solanum betaceum",
+        "imagen": "tomate-de-arbol-sachatomate.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 256,
+        "nombre": "Pepino dulce",
+        "nombreCientifico": "Solanum caripense",
+        "imagen": "pepino-dulce.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 257,
+        "nombre": "Tomate",
+        "nombreCientifico": "Solanum lycopersicum",
+        "imagen": "tomate.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 258,
+        "nombre": "Tomate cherry",
+        "nombreCientifico": "Solanum lycopersicum var. cerasiforme",
+        "imagen": "tomate-cherry.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 259,
+        "nombre": "Teta de vaca / manzano del diablo",
+        "nombreCientifico": "Solanum mammosum",
+        "imagen": "teta-de-vaca-manzano-del-diablo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 260,
+        "nombre": "Berenjena",
+        "nombreCientifico": "Solanum melongena",
+        "imagen": "berenjena.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 261,
+        "nombre": "Pepino dulce",
+        "nombreCientifico": "Solanum muricatum",
+        "imagen": "pepino-dulce.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 262,
+        "nombre": "Hierba mora",
+        "nombreCientifico": "Solanum nigrum",
+        "imagen": "hierba-mora.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 263,
+        "nombre": "Tomate silvestre peruano",
+        "nombreCientifico": "Solanum peruvianum",
+        "imagen": "tomate-silvestre-peruano.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 264,
+        "nombre": "Tomate silvestre / tomate cereza silvestre",
+        "nombreCientifico": "Solanum pimpinellifolium",
+        "imagen": "tomate-silvestre-tomate-cereza-silvestre.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 265,
+        "nombre": "Tomatillo robusto",
+        "nombreCientifico": "Solanum robustum",
+        "imagen": "tomatillo-robusto.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 266,
+        "nombre": "Cocona",
+        "nombreCientifico": "Solanum sessiliflorum",
+        "imagen": "cocona.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 267,
+        "nombre": "Berenjena silvestre / berenjena de monte",
+        "nombreCientifico": "Solanum torvum",
+        "imagen": "berenjena-silvestre-berenjena-de-monte.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 268,
+        "nombre": "Papa",
+        "nombreCientifico": "Solanum tuberosum",
+        "imagen": "papa.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 269,
+        "nombre": "Papa andina",
+        "nombreCientifico": "Solanum tuberosum subsp. andigenum",
+        "imagen": "papa-andina.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 270,
+        "nombre": "Vara de oro / romerillo",
+        "nombreCientifico": "Solidago chilensis",
+        "imagen": "vara-de-oro-romerillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 271,
+        "nombre": "Cerraja áspera",
+        "nombreCientifico": "Sonchus asper",
+        "imagen": "cerraja-aspera.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 272,
+        "nombre": "Cerraja / lechuguilla",
+        "nombreCientifico": "Sonchus oleraceus",
+        "imagen": "cerraja-lechuguilla.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 273,
+        "nombre": "Retama",
+        "nombreCientifico": "Spartium junceum",
+        "imagen": "retama.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 274,
+        "nombre": "Espinaca",
+        "nombreCientifico": "Spinacia oleracea",
+        "imagen": "espinaca.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 275,
+        "nombre": "Symplocos / palo de quina",
+        "nombreCientifico": "Symplocos sandiae",
+        "imagen": "symplocos-palo-de-quina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 276,
+        "nombre": "Anís serrano / pampa-anís",
+        "nombreCientifico": "Tagetes filifolia",
+        "imagen": "anis-serrano-pampa-anis.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 277,
+        "nombre": "Huacatay silvestre / flor de muerto",
+        "nombreCientifico": "Tagetes multiflora",
+        "imagen": "huacatay-silvestre-flor-de-muerto.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 278,
+        "nombre": "Clavel de moro / damasquina",
+        "nombreCientifico": "Tagetes patula",
+        "imagen": "clavel-de-moro-damasquina.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 279,
+        "nombre": "Tamarindo",
+        "nombreCientifico": "Tamarindus indica",
+        "imagen": "tamarindo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 280,
+        "nombre": "Diente de león",
+        "nombreCientifico": "Taraxacum officinale",
+        "imagen": "diente-de-leon.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 281,
+        "nombre": "Cacao",
+        "nombreCientifico": "Theobroma cacao",
+        "imagen": "cacao.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 1200.0
+        },
+        "temperatura": {
+            "min": 22.0,
+            "max": 32.0
+        },
+        "humedad": {
+            "min": 70.0,
+            "max": 90.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, profundo, húmedo y drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "100–300 cm"
+    },
+    {
+        "id": 282,
+        "nombre": "Tomillo",
+        "nombreCientifico": "Thymus vulgaris",
+        "imagen": "tomillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 70.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, ligero y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "20–50 cm"
+    },
+    {
+        "id": 283,
+        "nombre": "Cadillo / botón de oro",
+        "nombreCientifico": "Tridax procumbens",
+        "imagen": "cadillo-boton-de-oro.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 284,
+        "nombre": "Trigo",
+        "nombreCientifico": "Triticum aestivum",
+        "imagen": "trigo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 285,
+        "nombre": "Mashua",
+        "nombreCientifico": "Tropaeolum tuberosum",
+        "imagen": "mashua.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 286,
+        "nombre": "Olluco / melloco",
+        "nombreCientifico": "Ullucus tuberosus",
+        "imagen": "olluco-melloco.jpg",
+        "altitud": {
+            "min": 2500.0,
+            "max": 4500.0
+        },
+        "temperatura": {
+            "min": 5.0,
+            "max": 18.0
+        },
+        "humedad": {
+            "min": 45.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco/arenoso, drenado; tolera suelos pobres",
+        "luz": "Sol pleno",
+        "espacioRango": "30–150 cm"
+    },
+    {
+        "id": 287,
+        "nombre": "Arándano",
+        "nombreCientifico": "Vaccinium corymbosum",
+        "imagen": "arandano.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 288,
+        "nombre": "Perlillo / cun-cun",
+        "nombreCientifico": "Vallesia glabra",
+        "imagen": "perlillo-cun-cun.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 289,
+        "nombre": "Verbena",
+        "nombreCientifico": "Verbena hispida",
+        "imagen": "verbena.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 290,
+        "nombre": "Verbena de campo",
+        "nombreCientifico": "Verbena litoralis",
+        "imagen": "verbena-de-campo.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 291,
+        "nombre": "Verbena común",
+        "nombreCientifico": "Verbena officinalis",
+        "imagen": "verbena-comun.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 292,
+        "nombre": "Verbena",
+        "nombreCientifico": "Verbena × hybrida",
+        "imagen": "verbena.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 293,
+        "nombre": "Verbesina",
+        "nombreCientifico": "Verbesina crassiramea",
+        "imagen": "verbesina.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 294,
+        "nombre": "Haba",
+        "nombreCientifico": "Vicia faba",
+        "imagen": "haba.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 55.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil, rico en materia orgánica",
+        "luz": "Sol pleno",
+        "espacioRango": "15–50 cm"
+    },
+    {
+        "id": 295,
+        "nombre": "Pensamiento",
+        "nombreCientifico": "Viola × wittrockiana",
+        "imagen": "pensamiento.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    },
+    {
+        "id": 296,
+        "nombre": "Uva / vid",
+        "nombreCientifico": "Vitis vinifera",
+        "imagen": "uva-vid.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 3000.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 28.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 80.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Profundo, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "300–800 cm"
+    },
+    {
+        "id": 297,
+        "nombre": "Abrojo / cepa caballo",
+        "nombreCientifico": "Xanthium spinosum",
+        "imagen": "abrojo-cepa-caballo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 298,
+        "nombre": "Maíz amarillo",
+        "nombreCientifico": "Zea mays",
+        "imagen": "maiz-amarillo.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 299,
+        "nombre": "Maíz morado",
+        "nombreCientifico": "Zea mays L",
+        "imagen": "maiz-morado.jpg",
+        "altitud": {
+            "min": 500.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 15.0,
+            "max": 24.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno",
+        "espacioRango": "25–60 cm"
+    },
+    {
+        "id": 300,
+        "nombre": "Zinnia",
+        "nombreCientifico": "Zinnia elegans",
+        "imagen": "zinnia.jpg",
+        "altitud": {
+            "min": 0.0,
+            "max": 2500.0
+        },
+        "temperatura": {
+            "min": 12.0,
+            "max": 25.0
+        },
+        "humedad": {
+            "min": 50.0,
+            "max": 75.0
+        },
+        "espacioPorPlanta": 0,
+        "suelo": "Franco, fértil y bien drenado",
+        "luz": "Sol pleno / semisombra",
+        "espacioRango": "20–60 cm"
+    }
+]
