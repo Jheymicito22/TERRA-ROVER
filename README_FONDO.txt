@@ -1,1 +1,0 @@
-Se agregó fondo-andes.svg como fondo andino difuminado. El contenido y letras quedan protegidos por una capa translúcida.
