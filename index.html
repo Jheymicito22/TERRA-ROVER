@@ -8,6 +8,10 @@
     <title>Plantas de Áncash</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Recursos adicionales del módulo Herramientas agrícolas -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css">
 </head>
 
 <body>
@@ -77,6 +81,11 @@
                 onclick="mostrarSeccion('plagas', this)">
                 🐛
                 <span>Plagas y enfermedades</span>
+            </button>
+
+            <button class="nav-btn" onclick="mostrarSeccion('herramientas', this)">
+                🧭
+                <span>Herramientas agrícolas</span>
             </button>
 
         </nav>
@@ -543,7 +552,7 @@
                     </select>
                 </div>
 
-                <div class="catalogo-contador" id="contadorCatalogo">300 plantas</div>
+                <div class="catalogo-contador" id="contadorCatalogo">Varias plantas</div>
 
             </div>
 
@@ -1008,6 +1017,264 @@
         </section>
 
 
+        <!-- =====================================
+             HERRAMIENTAS AGRÍCOLAS
+             Módulo añadido sin sustituir las secciones existentes.
+        ====================================== -->
+
+        <section id="herramientas" class="seccion oculto">
+
+            <div class="ha-encabezado">
+                <div class="ha-encabezado-icono">🧭</div>
+                <div>
+                    <span class="ha-etiqueta">🌱 Agricultura inteligente</span>
+                    <h1>Herramientas agrícolas</h1>
+                    <p>Analiza tu parcela, consulta las condiciones ambientales y organiza el manejo de tu cultivo desde un solo espacio.</p>
+                </div>
+            </div>
+
+            <div class="ha-grid-superior">
+                <div class="ha-panel">
+                    <div class="ha-panel-titulo">
+                        <div><span class="ha-icono">📍</span><div><h2>Ubicación y parcela</h2><p>Obtén tu ubicación y delimita el terreno.</p></div></div>
+                    </div>
+                    <div class="ha-botones-fila">
+                        <button class="ha-btn ha-btn-principal" id="ha-btn-gps">📍 Obtener ubicación</button>
+                        <button class="ha-btn" id="ha-btn-limpiar">↺ Limpiar parcela</button>
+                    </div>
+                    <div id="ha-estado-gps" class="ha-estado">Esperando ubicación.</div>
+                    <div id="ha-mapa"></div>
+                    <div class="ha-ayuda-mapa">Usa la herramienta de polígono del mapa para marcar el perímetro. El área se calculará automáticamente.</div>
+                    <div class="ha-metricas">
+                        <div><span>Latitud</span><strong id="ha-lat">--</strong></div>
+                        <div><span>Longitud</span><strong id="ha-lon">--</strong></div>
+                        <div><span>Área</span><strong id="ha-area">--</strong></div>
+                    </div>
+                </div>
+
+                <div class="ha-panel">
+                    <div class="ha-panel-titulo">
+                        <div><span class="ha-icono">🌦️</span><div><h2>Condiciones de tu zona</h2><p>Datos meteorológicos para apoyar el análisis.</p></div></div>
+                        <button class="ha-icon-btn" id="ha-btn-clima" title="Actualizar clima">↻</button>
+                    </div>
+                    <div class="ha-clima-grid">
+                        <div><span>🌡️</span><small>Temperatura</small><strong id="ha-temp">-- °C</strong></div>
+                        <div><span>💧</span><small>Humedad</small><strong id="ha-humedad">-- %</strong></div>
+                        <div><span>💨</span><small>Viento</small><strong id="ha-viento">-- km/h</strong></div>
+                        <div><span>☀️</span><small>Radiación</small><strong id="ha-radiacion">--</strong></div>
+                    </div>
+                    <div class="ha-grafico"><canvas id="ha-grafico-clima"></canvas></div>
+                    <div class="ha-estado ha-estado-suave" id="ha-clima-estado">Obtén una ubicación para consultar el clima.</div>
+                    <div class="ha-pro-weather-extra" id="ha-pro-weather-extra"></div>
+                </div>
+            </div>
+
+            <div class="ha-panel ha-panel-lotes">
+                <div class="ha-panel-titulo">
+                    <div><span class="ha-icono">🗂️</span><div><h2>Gestión de lotes</h2><p>Guarda la información de tu parcela en este dispositivo.</p></div></div>
+                </div>
+                <div class="ha-lotes-grid">
+                    <div><label for="ha-nombre-lote">Nombre del lote</label><input id="ha-nombre-lote" placeholder="Ej. Lote Norte"></div>
+                    <div class="ha-botones-fila ha-lotes-botones">
+                        <button class="ha-btn ha-btn-principal" id="ha-guardar-lote">💾 Guardar</button>
+                        <button class="ha-btn" id="ha-exportar-lotes">⬇️ Exportar</button>
+                        <label class="ha-btn ha-btn-file">⬆️ Importar<input id="ha-importar-lotes" type="file" accept=".json" hidden></label>
+                    </div>
+                </div>
+                <div class="ha-lotes-cargar">
+                    <select id="ha-lotes-select"><option value="">-- Selecciona un lote guardado --</option></select>
+                    <button class="ha-btn" id="ha-cargar-lote">Cargar</button>
+                    <button class="ha-btn ha-btn-peligro" id="ha-borrar-lote">Eliminar</button>
+                </div>
+            </div>
+
+            <div class="ha-panel ha-cultivo-panel">
+                <div class="ha-panel-titulo">
+                    <div><span class="ha-icono">🌱</span><div><h2>Centro de análisis del cultivo</h2><p>Selecciona una especie y genera los cálculos del módulo.</p></div></div>
+                </div>
+                <div class="ha-form-grid">
+                    <div class="ha-cultivo-selector-pro">
+                        <label for="ha-cultivo-buscar">Buscar en mi base de plantas</label>
+                        <div class="ha-search-wrap">
+                            <span>🔎</span><input id="ha-cultivo-buscar" type="search" placeholder="Escribe el nombre de una planta, fruto o cultivo…" autocomplete="off">
+                        </div>
+                        <small id="ha-cultivo-contador" class="ha-cultivo-contador">Varias plantas disponibles</small>
+                        <label for="ha-cultivo" class="ha-label-secundaria">Cultivo seleccionado</label>
+                        <select id="ha-cultivo">
+                            <option value="">-- Selecciona un cultivo --</option>
+                            <optgroup label="Cultivos de referencia">
+                                <option value="papa">Papa blanca</option><option value="mango">Mango</option><option value="palta">Palta Hass</option><option value="esparrago">Espárrago</option><option value="quinua">Quinua</option><option value="maiz">Maíz</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div><label for="ha-fecha-siembra">Fecha de siembra</label><input id="ha-fecha-siembra" type="date"></div>
+                    <div><label for="ha-hectareas">Área cultivada (ha)</label><input id="ha-hectareas" type="number" min="0.01" step="0.01" value="1"></div>
+                    <div><label for="ha-costo">Presupuesto por hectárea (S/)</label><input id="ha-costo" type="number" min="0" step="100" value="5000"></div>
+                </div>
+
+                <div class="ha-decision-tools">
+                    <div><label for="ha-decision-provincia">Provincia para cruzar la información</label><select id="ha-decision-provincia"><option value="">-- Selecciona una provincia (opcional) --</option></select></div>
+                </div>
+
+                <div id="ha-cultivo-base-preview" class="ha-cultivo-base-preview">
+                    <div class="ha-cultivo-base-icon">🌿</div>
+                    <div><strong>Base de datos conectada</strong><p>Busca y selecciona una planta de tu base. Se usarán sus rangos de altitud, temperatura, humedad, suelo, luz y taxonomía cuando estén disponibles.</p></div>
+                    <span id="ha-cultivo-base-badge">VARIAS PLANTAS</span>
+                </div>
+
+                <div class="ha-tabs">
+                    <button class="ha-tab activo" data-ha-tab="viabilidad">Viabilidad</button>
+                    <button class="ha-tab" data-ha-tab="planificacion">Planificación</button>
+                    <button class="ha-tab" data-ha-tab="sanidad">Sanidad</button>
+                    <button class="ha-tab" data-ha-tab="trazabilidad">Trazabilidad</button>
+                </div>
+
+                <div class="ha-tab-contenido activo" data-ha-panel="viabilidad">
+                    <div class="ha-accion"><button class="ha-btn ha-btn-principal" id="ha-evaluar">Generar diagnóstico pre-siembra</button></div>
+                    <div id="ha-diagnostico" class="ha-resultado ha-oculto"></div>
+                </div>
+
+                <div class="ha-tab-contenido" data-ha-panel="planificacion">
+                    <div class="ha-accion"><button class="ha-btn ha-btn-principal" id="ha-planificar">Calcular planificación</button></div>
+                    <div id="ha-planificacion" class="ha-resultado ha-oculto"></div>
+                </div>
+
+                <div class="ha-tab-contenido" data-ha-panel="sanidad">
+                    <div class="ha-escaner" id="ha-drop-area">
+                        <input id="ha-foto" type="file" accept="image/*" hidden>
+                        <div class="ha-camara">📷</div>
+                        <strong>Seleccionar fotografía de una hoja</strong>
+                        <span>JPG, PNG o imagen capturada desde el dispositivo</span>
+                        <img id="ha-preview" alt="Vista previa" class="ha-preview oculto">
+                    </div>
+                    <button class="ha-btn ha-btn-principal ha-oculto" id="ha-analizar-foto">Analizar imagen</button>
+                    <div id="ha-resultado-vision" class="ha-resultado ha-oculto"></div>
+                </div>
+
+                <div class="ha-tab-contenido" data-ha-panel="trazabilidad">
+                    <div class="ha-form-grid">
+                        <div><label for="ha-productor">Productor o nombre de finca</label><input id="ha-productor" placeholder="Ej. Finca Los Andes"></div>
+                        <div><label for="ha-telefono">Teléfono comercial</label><input id="ha-telefono" placeholder="Ej. 987654321"></div>
+                    </div>
+                    <button class="ha-btn ha-btn-principal" id="ha-generar-etiqueta">Generar etiqueta</button>
+                    <div id="ha-etiqueta-wrap" class="ha-oculto ha-etiqueta-wrap">
+                        <div id="ha-etiqueta" class="ha-etiqueta">
+                            <div class="ha-etiqueta-cabecera">TRAZABILIDAD AGRÍCOLA</div>
+                            <div class="ha-etiqueta-cuerpo">
+                                <div>
+                                    <p>Lote ID: <strong id="ha-lbl-lote"></strong></p>
+                                    <p>Productor: <strong id="ha-lbl-productor"></strong></p>
+                                    <p>Cultivo: <strong id="ha-lbl-cultivo"></strong></p>
+                                    <p>Área: <strong id="ha-lbl-area"></strong></p>
+                                    <p>Ubicación: <strong id="ha-lbl-ubicacion"></strong></p>
+                                </div>
+                                <img id="ha-qr" alt="Código QR de trazabilidad">
+                            </div>
+                            <div class="ha-etiqueta-pie">Plantas de Áncash · Registro de parcela</div>
+                        </div>
+                        <button class="ha-btn" id="ha-descargar-etiqueta">⬇️ Descargar etiqueta PNG</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =====================================================
+                 PANEL PRO — MONITOREO, SUELO, ESTADÍSTICAS Y ANÁLISIS
+                 Se añade sin reemplazar el contenido anterior.
+            ====================================================== -->
+            <div class="ha-pro-panel" id="ha-pro-panel">
+                <div class="ha-pro-cabecera">
+                    <div>
+                        <span class="ha-etiqueta">⚡ MODO PRO · MONITOREO EN TIEMPO REAL</span>
+                        <h2>Centro inteligente de análisis agrícola</h2>
+                        <p>Integra la base de datos de Plantas de Áncash con condiciones ambientales, suelo, pH y estadísticas de uso.</p>
+                    </div>
+                    <div class="ha-live"><span></span> EN LÍNEA</div>
+                </div>
+
+                <div class="ha-pro-kpis">
+                    <div class="ha-pro-kpi"><span>📊</span><small>Análisis realizados</small><strong id="ha-stat-analisis">0</strong></div>
+                    <div class="ha-pro-kpi"><span>🌦️</span><small>Actualizaciones climáticas</small><strong id="ha-stat-clima">0</strong></div>
+                    <div class="ha-pro-kpi"><span>📍</span><small>Ubicaciones registradas</small><strong id="ha-stat-gps">0</strong></div>
+                    <div class="ha-pro-kpi"><span>🌱</span><small>Plantas consultadas</small><strong id="ha-stat-plantas">0</strong></div>
+                    <div class="ha-pro-kpi"><span>⏱️</span><small>Última actualización</small><strong id="ha-stat-ultima">--:--</strong></div>
+                </div>
+
+                <div class="ha-pro-grid">
+                    <div class="ha-panel ha-pro-condiciones">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">🧪</span><div><h2>Suelo y condiciones de parcela</h2><p>Completa los parámetros medibles de tu terreno.</p></div></div>
+                        </div>
+                        <div class="ha-form-grid ha-pro-form">
+                            <div><label for="ha-pro-ph">pH del suelo</label><input id="ha-pro-ph" type="number" min="0" max="14" step="0.1" placeholder="Ej. 6.2"></div>
+                            <div><label for="ha-pro-suelo">Tipo de suelo</label><select id="ha-pro-suelo">
+                                <option value="">-- Seleccionar --</option>
+                                <option>Franco</option><option>Franco arenoso</option><option>Franco limoso</option><option>Franco arcilloso</option><option>Arenoso</option><option>Arcilloso</option><option>Pedregoso</option><option>Otro</option>
+                            </select></div>
+                            <div><label for="ha-pro-drenaje">Drenaje</label><select id="ha-pro-drenaje"><option value="">-- Seleccionar --</option><option>Bueno</option><option>Moderado</option><option>Deficiente</option></select></div>
+                            <div><label for="ha-pro-riego">Disponibilidad de agua</label><select id="ha-pro-riego"><option value="">-- Seleccionar --</option><option>Alta</option><option>Media</option><option>Baja</option></select></div>
+                        </div>
+                        <div class="ha-pro-chip-row" id="ha-pro-ficha-base">
+                            <span>🌱 Selecciona una planta de la base para cargar su ficha.</span>
+                        </div>
+                    </div>
+
+                    <div class="ha-panel">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">🗃️</span><div><h2>Planta de la base de datos</h2><p>Selecciona una planta para consultar su información y evaluar sus condiciones.</p></div></div>
+                        </div>
+                        <label for="ha-pro-planta">Planta / fruto</label>
+                        <select id="ha-pro-planta"><option value="">Cargando catálogo…</option></select>
+                        <div class="ha-pro-origen" id="ha-pro-origen">📍 Origen/procedencia: pendiente</div>
+                        <div class="ha-pro-ficha-mini" id="ha-pro-ficha-mini"></div>
+                        <button class="ha-btn ha-btn-principal" id="ha-pro-analizar">🔬 Analizar compatibilidad completa</button>
+                    </div>
+                </div>
+
+                <div class="ha-pro-grid ha-pro-graficos">
+                    <div class="ha-panel">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">📈</span><div><h2>Condiciones actuales vs. condiciones adecuadas</h2><p>Comparación visual de los parámetros disponibles.</p></div></div>
+                        </div>
+                        <div class="ha-pro-chart"><canvas id="ha-pro-chart-rangos"></canvas></div>
+                    </div>
+                    <div class="ha-panel">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">🌦️</span><div><h2>Pronóstico de 7 días</h2><p>Temperatura y precipitación estimadas.</p></div></div>
+                        </div>
+                        <div class="ha-pro-chart"><canvas id="ha-pro-chart-pronostico"></canvas></div>
+                    </div>
+                </div>
+
+                <div class="ha-pro-grid">
+                    <div class="ha-panel">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">🧠</span><div><h2>Diagnóstico multidimensional</h2><p>Integra clima, altitud, pH, suelo y disponibilidad de agua.</p></div></div>
+                        </div>
+                        <div id="ha-pro-diagnostico" class="ha-pro-diagnostico">
+                            <div class="ha-pro-vacio">Selecciona una planta y registra los datos disponibles para generar el análisis.</div>
+                        </div>
+                    </div>
+                    <div class="ha-panel">
+                        <div class="ha-panel-titulo">
+                            <div><span class="ha-icono">📍</span><div><h2>Procedencia y distribución</h2><p>Información disponible en tus bases provinciales.</p></div></div>
+                        </div>
+                        <div id="ha-pro-distribucion" class="ha-pro-distribucion"></div>
+                    </div>
+                </div>
+
+                <div class="ha-panel ha-pro-historial">
+                    <div class="ha-panel-titulo">
+                        <div><span class="ha-icono">🕒</span><div><h2>Actividad reciente</h2><p>Historial local de análisis efectuados en este dispositivo.</p></div></div>
+                        <button class="ha-btn ha-btn-peligro ha-btn-small" id="ha-pro-limpiar-estadisticas">Limpiar estadísticas</button>
+                    </div>
+                    <div id="ha-pro-historial-lista" class="ha-pro-historial-lista"></div>
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
 
@@ -1015,6 +1282,11 @@
     <!-- =========================================
          JAVASCRIPT
     ========================================== -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
     <script src="script.js"></script>
 
